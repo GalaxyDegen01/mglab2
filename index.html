@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Incentives - Crafting Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                <span>🎯</span>
+                <span>Craft Incentives</span>
+            </a>
+            <nav>
+                <a href="#" class="nav-link active" data-page="incentivos">Incentives</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- INCENTIVES PAGE -->
+        <div id="incentivos" class="page-content active">
+            <section class="incentives-section">
+                <div class="hero">
+                    <h1>Craft Incentives Calendar</h1>
+                    <p>Track events, rewards, and releases with a clean real-time countdown layout.</p>
+                </div>
+
+                <!-- Timezone Configuration -->
+                <div class="timezone-section">
+                    <h3>⏰ Timezone Configuration</h3>
+                    <div class="timezone-control">
+                        <label for="timezoneSelect">Select your timezone:</label>
+                        <select id="timezoneSelect"></select>
+                        <span id="detectedTimezone"></span>
+                    </div>
+                </div>
+
+                <!-- Search Incentive -->
+                <div class="search-section">
+                    <h3>🔍 Search incentive</h3>
+                    <div class="search-control">
+                        <select id="searchIncentive" style="width: 100%;"></select>
+                    </div>
+                    <div id="searchResultsContainer"></div>
+                </div>
+
+                <!-- Current Active Incentive -->
+                <div id="currentIncentiveContainer"></div>
+
+                <!-- Upcoming Incentives -->
+                <div>
+                    <h2 class="section-title">📅 Upcoming incentives</h2>
+                    <div id="incentivosContainer"></div>
+                </div>
+
+                <!-- Load More -->
+                <div id="loadMoreSection"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem 1rem; color: #999; border-top: 1px solid #e0e0e0; margin-top: 2rem;">
+        <p>&copy; 2026 Craft Incentives. Real-time crafting calendar for Mutants.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

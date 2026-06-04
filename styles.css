@@ -1,0 +1,656 @@
+:root {
+    color-scheme: dark;
+    --bg: #080e1c;
+    --surface: #101b33;
+    --text: #e7eefb;
+    --muted: #9bb0d1;
+    --border: #25314f;
+    --card: #121b30;
+    --card-alt: #172744;
+    --shadow: 0 28px 60px rgba(0, 0, 0, 0.35);
+    --primary: #5f9dfd;
+    --primary-soft: rgba(95, 157, 253, 0.18);
+    --success: #3ad8a0;
+    --info: #4ea5f8;
+    --danger: #fb7676;
+    --footer: #9cb0c8;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: radial-gradient(circle at top, rgba(56, 189, 248, 0.08), transparent 32%), var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+body.light {
+    color-scheme: light;
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --text: #111827;
+    --muted: #475569;
+    --border: #d1d5db;
+    --card: #ffffff;
+    --card-alt: #f8fafc;
+    --shadow: 0 18px 46px rgba(15, 23, 42, 0.08);
+    --primary: #2563eb;
+    --primary-soft: #eff6ff;
+    --success: #16a34a;
+    --info: #0284c7;
+    --danger: #dc2626;
+    --footer: #64748b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo:hover {
+    color: var(--primary);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.theme-toggle {
+    border: 1px solid var(--border);
+    background: var(--card-alt);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.96rem;
+    transition: color 0.2s ease;
+}
+
+nav a.active,
+nav a:hover {
+    color: var(--text);
+}
+
+main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2rem;
+}
+
+.page-content {
+    display: none;
+}
+
+.page-content.active {
+    display: block;
+    animation: fadeIn 0.25s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+
+.hero h1 {
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: var(--muted);
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 1.5rem 0 1rem;
+    font-size: 1.15rem;
+    color: var(--text);
+}
+
+.timezone-section,
+.search-section,
+.current-incentive-section,
+.incentivo-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.35rem;
+}
+
+.timezone-section,
+.search-section {
+    margin-bottom: 1.5rem;
+}
+
+.search-result-card,
+.incentivo-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+.search-result-card {
+    background: #151f36;
+}
+
+.timezone-section h3,
+.search-section h3,
+.current-incentive-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.timezone-control,
+.search-control {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.timezone-control label {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.timezone-control select,
+.search-control select {
+    flex: 1;
+    min-width: 180px;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--card-alt);
+    color: var(--text);
+    font-size: 0.95rem;
+}
+
+.timezone-control select:hover,
+.search-control select:hover {
+    border-color: var(--primary);
+}
+
+#detectedTimezone {
+    color: var(--muted);
+    font-size: 0.88rem;
+}
+
+#searchResultsContainer {
+    margin-top: 1.25rem;
+}
+
+.search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.search-result-card,
+.incentivo-card {
+    box-shadow: var(--shadow);
+}
+
+.search-results-section {
+    text-align: center;
+}
+
+.search-result-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-result-card .search-result-date,
+.search-result-card .search-result-time,
+.search-result-card .search-result-duration {
+    width: 100%;
+}
+
+.search-result-card {
+    background: var(--card-alt);
+}
+
+.search-result-date {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.45rem;
+}
+
+.search-result-time,
+.incentivo-description,
+.incentivo-dates,
+.current-incentive-description {
+    color: var(--muted);
+}
+
+.current-incentive-section {
+    background: linear-gradient(180deg, rgba(96, 156, 253, 0.12), rgba(15, 23, 42, 0.95));
+    border: 1px solid rgba(95, 157, 253, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    padding: 1.6rem;
+}
+
+.current-incentive-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.current-incentive-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.current-incentive-icon img {
+    width: 88px;
+    height: 88px;
+    object-fit: contain;
+}
+
+.current-incentive-info {
+    max-width: 540px;
+}
+
+.current-incentive-name {
+    font-size: 1.25rem;
+    margin-bottom: 0.55rem;
+    font-weight: 700;
+    color: #f8fbff;
+}
+
+.current-incentive-description {
+    font-size: 0.98rem;
+    line-height: 1.75;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.current-incentive-time {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.current-incentive-time-label {
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.current-incentive-time-value {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.current-incentive-time-value strong {
+    font-size: 1.05rem;
+}
+
+.current-incentive-time-label,
+.duration-label,
+.date-label,
+.countdown-label {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+
+.current-incentive-time-value,
+.duration-value,
+.countdown-value,
+.date-value {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.no-active-incentive {
+    text-align: center;
+    color: var(--muted);
+}
+
+#incentivosContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    #incentivosContainer {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    #incentivosContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.incentivo-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.incentivo-card:hover {
+    transform: translateY(-2px);
+}
+
+.incentivo-card.active {
+    border-color: rgba(58, 216, 160, 0.35);
+    background: rgba(58, 216, 160, 0.12);
+}
+
+.incentivo-card.upcoming {
+    border-color: rgba(78, 165, 248, 0.35);
+    background: rgba(78, 165, 248, 0.12);
+}
+
+.incentivo-card.expired {
+    opacity: 0.92;
+    border-color: rgba(156, 168, 200, 0.35);
+    background: rgba(156, 168, 200, 0.08);
+}
+
+.incentivo-card .incentivo-name,
+.incentivo-card .incentivo-description,
+.incentivo-card .incentivo-duration,
+.incentivo-card .incentivo-dates,
+.incentivo-card .countdown {
+    width: 100%;
+}
+
+.incentivo-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.incentivo-description {
+    margin-bottom: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+}
+
+.incentivo-dates {
+    display: grid;
+    grid-template-columns: minmax(130px, 1fr) minmax(130px, 1fr);
+    gap: 0.35rem 1rem;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.date-label {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.date-value {
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .incentivo-dates {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .date-label,
+    .date-value {
+        text-align: center;
+    }
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.32rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin: 0 auto 0.75rem;
+    letter-spacing: 0.02em;
+}
+
+.status-active {
+    background: rgba(58, 216, 160, 0.18);
+    color: #b7f8de;
+}
+
+.status-upcoming {
+    background: rgba(78, 165, 248, 0.18);
+    color: #c7e6ff;
+}
+
+.status-expired {
+    background: rgba(251, 118, 118, 0.18);
+    color: #fed7d7;
+}
+
+.incentivo-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-alt);
+    border-radius: 14px;
+}
+
+.incentivo-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.incentivo-description {
+    margin-bottom: 0.75rem;
+}
+
+.incentivo-duration,
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.35rem;
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.incentivo-duration .duration-label,
+.incentivo-duration .duration-value,
+.countdown .countdown-label,
+.countdown .countdown-value {
+    width: 100%;
+    text-align: center;
+}
+
+.countdown-value {
+    font-size: 1rem;
+}
+
+.load-more-container {
+    justify-content: center;
+}
+
+.btn-load-more {
+    padding: 0.95rem 2rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #5d7dff, #3a95ff);
+    color: #fff;
+    border: 1px solid rgba(91, 123, 255, 0.4);
+    box-shadow: 0 16px 48px rgba(42, 105, 255, 0.22);
+    font-size: 0.98rem;
+    font-weight: 700;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.btn-load-more:hover {
+    background: linear-gradient(135deg, #4f6ff7, #2d84ff);
+    transform: translateY(-1px);
+    box-shadow: 0 20px 55px rgba(42, 105, 255, 0.28);
+}
+
+.btn-load-more:focus-visible {
+    outline: 2px solid rgba(96, 156, 253, 0.7);
+    outline-offset: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: var(--footer);
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 880px) {
+    .header-content,
+    main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-content {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .header-actions {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+
+    .current-incentive-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .timezone-control,
+    .search-control {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 560px) {
+    #incentivosContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .theme-toggle,
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-actions {
+        flex-direction: column;
+    }
+
+    .timezone-section,
+    .search-section,
+    .current-incentive-section {
+        padding: 1rem;
+    }
+
+    .incentivo-duration,
+    .countdown {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
