@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Modified Mutants Preview - MGG</title>
 <style>
 :root {
@@ -37,6 +38,19 @@ body {
     font-size: 24px;
     letter-spacing: 0.5px;
     margin-bottom: 15px;
+}
+
+/* Navigation Link back */
+.nav-back {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #00c3ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-back:hover {
+    text-decoration: underline;
 }
 
 /* Level Selector */
@@ -232,11 +246,21 @@ input#search:focus {
     font-size: 11px;
     margin-left: 4px;
 }
+
+.error-msg {
+    background: rgba(255, 51, 102, 0.1);
+    border: 1px solid var(--red-down);
+    color: #ff3366;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
 </style>
 </head>
 <body>
 
 <div class="header-bar">
+    <a href="index.html" class="nav-back">← Back to Incentives</a>
     <h2 id="total-count">Modified Specimens (0)</h2>
     
     <!-- Level Buttons -->
@@ -268,7 +292,6 @@ const geneMap = {
     'F': 'Mythic'
 };
 
-// Helper function to resolve genes from Specimen ID (e.g. "Specimen_FD_03" -> "Mythic / Zoomorf")
 function getGenesFromSpecimen(specimenId) {
     const code = specimenId.replace(/^Specimen_/i, '').split('_')[0].toUpperCase();
     if (code.length >= 2) {
@@ -281,15 +304,18 @@ function getGenesFromSpecimen(specimenId) {
     return 'Unknown';
 }
 
-// Format numbers with commas (e.g. 13,599)
 function formatNum(num) {
     return Number(num).toLocaleString('en-US');
 }
 
-// Fetch JSON and initialize
 async function loadMutants() {
     try {
-        const response = await fetch('mutantes_modificados.json');
+        const response = await fetch('./mutantes_modificados.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         globalData = await response.json();
         
         const count = Object.keys(globalData).length;
@@ -298,11 +324,15 @@ async function loadMutants() {
         renderCards();
     } catch (e) {
         console.error("Error loading mutantes_modificados.json:", e);
-        document.getElementById('container').innerHTML = "<p style='text-align:center;'>Error loading JSON data.</p>";
+        document.getElementById('container').innerHTML = `
+            <div class="error-msg">
+                <h3>Error reading data</h3>
+                <p>Could not load <code>mutantes_modificados.json</code>.</p>
+                <p>Make sure the JSON file exists in the root folder of your repository.</p>
+            </div>`;
     }
 }
 
-// Change active level
 function changeLevel(lvl) {
     currentLevel = lvl;
     document.querySelectorAll('.lvl-btn').forEach(btn => {
@@ -311,36 +341,30 @@ function changeLevel(lvl) {
     renderCards();
 }
 
-// Render mutant cards
 function renderCards() {
     const container = document.getElementById('container');
     container.innerHTML = '';
 
     for (const [specimenId, item] of Object.entries(globalData)) {
-        const oldData = item.old;
-        const newData = item.new;
+        const oldData = item.old || {};
+        const newData = item.new || {};
 
-        // 1. Clean mutant name (remove "(Basic)")
-        const rawName = newData.Name || '';
+        const rawName = newData.Name || specimenId;
         const name = rawName.replace(/\s*\(Basic\)/gi, '').trim();
 
-        // 2. Format image filename: "Specimen_CA_11" -> "ca_11.png"
         const cleanImgName = specimenId.replace(/^Specimen_/i, '').toLowerCase();
         const imagePath = `images/${cleanImgName}.png`;
 
-        // 3. Resolve Genes
         const genes = getGenesFromSpecimen(specimenId);
 
-        const type = newData.Type;
-        const ability = newData.Name_of_Ability;
-        const isAOE = newData.Multiple.toLowerCase().includes('multi') || newData.Multiple.toLowerCase().includes('1p');
+        const type = newData.Type || 'N/A';
+        const ability = newData.Name_of_Ability || 'N/A';
+        const isAOE = newData.Multiple && (newData.Multiple.toLowerCase().includes('multi') || newData.Multiple.toLowerCase().includes('1p'));
         const aoeBadge = isAOE ? ' <span class="badge-tag">AOE</span>' : '';
 
-        // Stats for selected level
-        const oldLvl = oldData.levels[currentLevel] || {};
-        const newLvl = newData.levels[currentLevel] || {};
+        const oldLvl = (oldData.levels && oldData.levels[currentLevel]) || {};
+        const newLvl = (newData.levels && newData.levels[currentLevel]) || {};
 
-        // Helper to compare and set up/down classes
         function getStatRow(label, oldVal, newVal, isFloat = false) {
             let cls = '';
             let symbol = '';
@@ -362,7 +386,6 @@ function renderCards() {
             };
         }
 
-        // Special row for Atk 2 with AOE badge
         function getAtk2Row(oldVal, newVal) {
             let cls = '';
             let symbol = '';
@@ -381,10 +404,8 @@ function renderCards() {
         const atk2 = getAtk2Row(oldLvl.Atk2 || 0, newLvl.Atk2 || 0);
         const hab = getStatRow('Ability', oldLvl.Ability_Atk1_pct || 0, newLvl.Ability_Atk1_pct || 0);
 
-        // Search text
         const searchKeywords = `${name} ${genes} ${type} ${ability} ${specimenId} ${cleanImgName}`.toLowerCase();
 
-        // Card HTML construction
         const cardHtml = `
         <div class="card" data-search="${searchKeywords}">
             <div class="card-body">
@@ -402,7 +423,7 @@ function renderCards() {
 
                 <!-- IMAGE -->
                 <div class="image-panel">
-                    <img src="${imagePath}" alt="${name}" onerror="this.src='https://via.placeholder.com/150x180/1a1c29/00c3ff?text=${encodeURIComponent(name)}';">
+                    <img src="${imagePath}" alt="${name}" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x180/1a1c29/00c3ff?text=${encodeURIComponent(name)}';">
                 </div>
 
                 <!-- NOW -->
@@ -432,7 +453,6 @@ function renderCards() {
     filterCards();
 }
 
-// Filter cards with search input
 function filterCards() {
     let q = document.getElementById('search').value.toLowerCase();
     let cards = document.querySelectorAll('.card');
@@ -442,7 +462,6 @@ function filterCards() {
     });
 }
 
-// Load data when DOM is ready
 document.addEventListener('DOMContentLoaded', loadMutants);
 </script>
 
