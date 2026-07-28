@@ -1,469 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modified Mutants Preview - MGG</title>
-<style>
-:root {
-    --bg-dark: #0a0b10;
-    --card-bg: #12131c;
-    --panel-bg: #1a1c29;
-    --accent-gold: linear-gradient(135deg, #00c3ff, #00aeff);
-    --green-up: #00ff88;
-    --red-down: #ff3366;
-    --text-muted: #8e95b3;
-}
-
-body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    background: var(--bg-dark);
-    background-image: radial-gradient(circle at 50% 0%, #1d2136 0%, var(--bg-dark) 70%);
-    color: #e2e8f0;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.header-bar {
-    width: 100%;
-    max-width: 720px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.header-bar h2 {
-    font-size: 24px;
-    letter-spacing: 0.5px;
-    margin-bottom: 15px;
-}
-
-/* Navigation Link back */
-.nav-back {
-    display: inline-block;
-    margin-bottom: 15px;
-    color: #00c3ff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-.nav-back:hover {
-    text-decoration: underline;
-}
-
-/* Level Selector */
-.level-selector {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
-.lvl-btn {
-    background: #1a1c29;
-    border: 1px solid #2e334d;
-    color: var(--text-muted);
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 13px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.lvl-btn:hover {
-    border-color: #00ccff;
-    color: #fff;
-}
-
-.lvl-btn.active {
-    background: #00c3ff;
-    color: #0a0b10;
-    border-color: #00c3ff;
-    box-shadow: 0 0 12px rgba(0, 195, 255, 0.4);
-}
-
-input#search {
-    width: 100%;
-    padding: 14px 18px;
-    background: rgba(26, 28, 41, 0.8);
-    border: 1px solid #2e334d;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 14px;
-    outline: none;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-}
-
-input#search:focus {
-    border-color: #00ccff;
-    box-shadow: 0 0 12px rgba(0, 204, 255, 0.2);
-}
-
-.cards-container {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    width: 100%;
-    max-width: 720px;
-}
-
-/* GAMER / UI CARD STYLE */
-.card {
-    background: var(--card-bg);
-    border: 1px solid #23273a;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    position: relative;
-    transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.card:hover {
-    transform: translateY(-2px);
-    border-color: #3b4263;
-}
-
-.card-body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
-}
-
-/* STATS PANELS */
-.stats-panel {
-    background: var(--panel-bg);
-    border: 1px solid #282c42;
-    border-radius: 12px;
-    padding: 14px 16px;
-    width: 34%;
-    box-sizing: border-box;
-}
-
-.panel-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-    padding: 3px 8px;
-    border-radius: 20px;
-    background: #11131d;
-    color: var(--text-muted);
-}
-
-.panel-title.now {
-    background: rgba(0, 255, 136, 0.1);
-    color: var(--green-up);
-    border: 1px solid rgba(0, 255, 136, 0.2);
-}
-
-.stats-panel table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.stats-panel td {
-    padding: 5px 0;
-    font-size: 13px;
-}
-
-.lbl {
-    color: var(--text-muted);
-    font-weight: 500;
-}
-
-.val {
-    text-align: right;
-    font-weight: 700;
-    color: #f1f5f9;
-}
-
-/* HIGHLIGHT STATS WITH GLOW */
-.val.up {
-    color: var(--green-up);
-    text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
-}
-
-.val.down {
-    color: var(--red-down);
-    text-shadow: 0 0 8px rgba(255, 51, 102, 0.3);
-}
-
-/* CENTRAL IMAGE CONTAINER */
-.image-panel {
-    width: 28%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.image-panel img {
-    max-width: 100%;
-    max-height: 190px;
-    object-fit: contain;
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.9));
-}
-
-/* CARD FOOTER */
-.card-footer {
-    text-align: center;
-    padding-top: 5px;
-    border-top: 1px dashed #23273a;
-}
-
-.mutant-name {
-    font-size: 21px;
-    font-weight: 900;
-    background: var(--accent-gold);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
-
-.mutant-sub {
-    font-size: 12px;
-    color: var(--text-muted);
-    margin-top: 3px;
-    font-weight: 500;
-}
-
-.badge-tag {
-    display: inline-block;
-    background: #23273a;
-    color: #cbd5e1;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    margin-left: 4px;
-}
-
-.error-msg {
-    background: rgba(255, 51, 102, 0.1);
-    border: 1px solid var(--red-down);
-    color: #ff3366;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Incentives - Crafting Calendar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="header-bar">
-    <a href="index.html" class="nav-back">← Back to Incentives</a>
-    <h2 id="total-count">Modified Specimens (0)</h2>
-    
-    <!-- Level Buttons -->
-    <div class="level-selector">
-        <button class="lvl-btn active" onclick="changeLevel('25')">Lvl 25</button>
-        <button class="lvl-btn" onclick="changeLevel('100')">Lvl 100</button>
-        <button class="lvl-btn" onclick="changeLevel('150')">Lvl 150</button>
-        <button class="lvl-btn" onclick="changeLevel('200')">Lvl 200</button>
-    </div>
-
-    <input type="text" id="search" onkeyup="filterCards()" placeholder="Search by mutant, genes, type, or ability...">
-</div>
-
-<div class="cards-container" id="container">
-    <!-- Cards will be dynamically generated here -->
-</div>
-
-<script>
-let globalData = {};
-let currentLevel = '25';
-
-// Gene Mapping Dictionary
-const geneMap = {
-    'A': 'Cyber',
-    'B': 'Necro',
-    'C': 'Saber',
-    'D': 'Zoomorf',
-    'E': 'Galactic',
-    'F': 'Mythic'
-};
-
-function getGenesFromSpecimen(specimenId) {
-    const code = specimenId.replace(/^Specimen_/i, '').split('_')[0].toUpperCase();
-    if (code.length >= 2) {
-        const gene1 = geneMap[code[0]] || code[0];
-        const gene2 = geneMap[code[1]] || code[1];
-        return `${gene1} / ${gene2}`;
-    } else if (code.length === 1) {
-        return geneMap[code[0]] || code[0];
-    }
-    return 'Unknown';
-}
-
-function formatNum(num) {
-    return Number(num).toLocaleString('en-US');
-}
-
-async function loadMutants() {
-    try {
-        const response = await fetch('./mutantes_modificados.json');
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        globalData = await response.json();
-        
-        const count = Object.keys(globalData).length;
-        document.getElementById('total-count').textContent = `Modified Specimens (${count})`;
-
-        renderCards();
-    } catch (e) {
-        console.error("Error loading mutantes_modificados.json:", e);
-        document.getElementById('container').innerHTML = `
-            <div class="error-msg">
-                <h3>Error reading data</h3>
-                <p>Could not load <code>mutantes_modificados.json</code>.</p>
-                <p>Make sure the JSON file exists in the root folder of your repository.</p>
-            </div>`;
-    }
-}
-
-function changeLevel(lvl) {
-    currentLevel = lvl;
-    document.querySelectorAll('.lvl-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.textContent.includes(lvl));
-    });
-    renderCards();
-}
-
-function renderCards() {
-    const container = document.getElementById('container');
-    container.innerHTML = '';
-
-    for (const [specimenId, item] of Object.entries(globalData)) {
-        const oldData = item.old || {};
-        const newData = item.new || {};
-
-        const rawName = newData.Name || specimenId;
-        const name = rawName.replace(/\s*\(Basic\)/gi, '').trim();
-
-        const cleanImgName = specimenId.replace(/^Specimen_/i, '').toLowerCase();
-        const imagePath = `images/${cleanImgName}.png`;
-
-        const genes = getGenesFromSpecimen(specimenId);
-
-        const type = newData.Type || 'N/A';
-        const ability = newData.Name_of_Ability || 'N/A';
-        const isAOE = newData.Multiple && (newData.Multiple.toLowerCase().includes('multi') || newData.Multiple.toLowerCase().includes('1p'));
-        const aoeBadge = isAOE ? ' <span class="badge-tag">AOE</span>' : '';
-
-        const oldLvl = (oldData.levels && oldData.levels[currentLevel]) || {};
-        const newLvl = (newData.levels && newData.levels[currentLevel]) || {};
-
-        function getStatRow(label, oldVal, newVal, isFloat = false) {
-            let cls = '';
-            let symbol = '';
-
-            if (newVal > oldVal) {
-                cls = 'up';
-                symbol = ' ▲';
-            } else if (newVal < oldVal) {
-                cls = 'down';
-                symbol = ' ▼';
-            }
-
-            const oldFormatted = isFloat ? oldVal : formatNum(oldVal);
-            const newFormatted = isFloat ? newVal : formatNum(newVal);
-
-            return {
-                oldHtml: `<tr><td class="lbl">${label}</td><td class="val">${oldFormatted}</td></tr>`,
-                newHtml: `<tr><td class="lbl">${label}</td><td class="val ${cls}">${newFormatted}${symbol}</td></tr>`
-            };
-        }
-
-        function getAtk2Row(oldVal, newVal) {
-            let cls = '';
-            let symbol = '';
-            if (newVal > oldVal) { cls = 'up'; symbol = ' ▲'; }
-            else if (newVal < oldVal) { cls = 'down'; symbol = ' ▼'; }
-
-            return {
-                oldHtml: `<tr><td class="lbl">Atk 2</td><td class="val">${formatNum(oldVal)}${aoeBadge}</td></tr>`,
-                newHtml: `<tr><td class="lbl">Atk 2</td><td class="val ${cls}">${formatNum(newVal)}${symbol}${aoeBadge}</td></tr>`
-            };
-        }
-
-        const life = getStatRow('Health', oldLvl.Life || 0, newLvl.Life || 0);
-        const speed = getStatRow('Speed', oldData.Speed || 0, newData.Speed || 0, true);
-        const atk1 = getStatRow('Atk 1', oldLvl.Atk1 || 0, newLvl.Atk1 || 0);
-        const atk2 = getAtk2Row(oldLvl.Atk2 || 0, newLvl.Atk2 || 0);
-        const hab = getStatRow('Ability', oldLvl.Ability_Atk1_pct || 0, newLvl.Ability_Atk1_pct || 0);
-
-        const searchKeywords = `${name} ${genes} ${type} ${ability} ${specimenId} ${cleanImgName}`.toLowerCase();
-
-        const cardHtml = `
-        <div class="card" data-search="${searchKeywords}">
-            <div class="card-body">
-                <!-- BEFORE -->
-                <div class="stats-panel">
-                    <div class="panel-title">BEFORE</div>
-                    <table>
-                        ${life.oldHtml}
-                        ${speed.oldHtml}
-                        ${atk1.oldHtml}
-                        ${atk2.oldHtml}
-                        ${hab.oldHtml}
-                    </table>
-                </div>
-
-                <!-- IMAGE -->
-                <div class="image-panel">
-                    <img src="${imagePath}" alt="${name}" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x180/1a1c29/00c3ff?text=${encodeURIComponent(name)}';">
-                </div>
-
-                <!-- NOW -->
-                <div class="stats-panel">
-                    <div class="panel-title now">NOW</div>
-                    <table>
-                        ${life.newHtml}
-                        ${speed.newHtml}
-                        ${atk1.newHtml}
-                        ${atk2.newHtml}
-                        ${hab.newHtml}
-                    </table>
-                </div>
-            </div>
-
-            <!-- FOOTER -->
-            <div class="card-footer">
-                <div class="mutant-name">${name}</div>
-                <div class="mutant-sub"><b>${genes}</b> • ${type} • Ability: <b>${ability}</b></div>
-            </div>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                <span>🎯</span>
+                <span>Craft Incentives</span>
+            </a>
+            <nav>
+                <a href="#" class="nav-link active" data-page="incentivos">Incentives</a>
+                <!-- Nueva enlace de navegación -->
+                <a href="changes_balance.html" class="nav-link">Changes Balance</a>
+            </nav>
         </div>
-        `;
+    </header>
 
-        container.insertAdjacentHTML('beforeend', cardHtml);
-    }
+    <main>
+        <!-- INCENTIVES PAGE -->
+        <div id="incentivos" class="page-content active">
+            <section class="incentives-section">
+                <div class="hero">
+                    <h1>Craft Incentives Calendar</h1>
+                    <p>Track events, rewards, and releases with a clean real-time countdown layout.</p>
+                </div>
 
-    filterCards();
-}
+                <!-- Timezone Configuration -->
+                <div class="timezone-section">
+                    <h3>⏰ Timezone Configuration</h3>
+                    <div class="timezone-control">
+                        <label for="timezoneSelect">Select your timezone:</label>
+                        <select id="timezoneSelect"></select>
+                        <span id="detectedTimezone"></span>
+                    </div>
+                </div>
 
-function filterCards() {
-    let q = document.getElementById('search').value.toLowerCase();
-    let cards = document.querySelectorAll('.card');
-    cards.forEach(card => {
-        let text = card.getAttribute('data-search');
-        card.style.display = text.includes(q) ? 'flex' : 'none';
-    });
-}
+                <!-- Search Incentive -->
+                <div class="search-section">
+                    <h3>🔍 Search incentive</h3>
+                    <div class="search-control">
+                        <select id="searchIncentive" style="width: 100%;"></select>
+                    </div>
+                    <div id="searchResultsContainer"></div>
+                </div>
 
-document.addEventListener('DOMContentLoaded', loadMutants);
-</script>
+                <!-- Current Active Incentive -->
+                <div id="currentIncentiveContainer"></div>
 
+                <!-- Upcoming Incentives -->
+                <div>
+                    <h2 class="section-title">📅 Upcoming incentives</h2>
+                    <div id="incentivosContainer"></div>
+                </div>
+
+                <!-- Load More -->
+                <div id="loadMoreSection"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem 1rem; color: #999; border-top: 1px solid #e0e0e0; margin-top: 2rem;">
+        <p>&copy; 2026 Craft Incentives. Real-time crafting calendar for Mutants.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
