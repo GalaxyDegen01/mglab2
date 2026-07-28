@@ -1,0 +1,3668 @@
+{
+  "Specimen_FD_03": {
+    "old": {
+      "Specimen": "Specimen_FD_03",
+      "Name": "Ivory Hanzo (Basic)",
+      "Type": "GACHA",
+      "Speed": 3.7,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 10794,
+          "Atk1": 10112,
+          "Atk2": 10112,
+          "Ability_Atk1_pct": 3034,
+          "Ability_Atk2_pct": 3034
+        },
+        "100": {
+          "Life": 34603,
+          "Atk1": 32418,
+          "Atk2": 32418,
+          "Ability_Atk1_pct": 9725,
+          "Ability_Atk2_pct": 9725
+        },
+        "150": {
+          "Life": 50476,
+          "Atk1": 47289,
+          "Atk2": 47289,
+          "Ability_Atk1_pct": 14187,
+          "Ability_Atk2_pct": 14187
+        },
+        "200": {
+          "Life": 66349,
+          "Atk1": 62159,
+          "Atk2": 62159,
+          "Ability_Atk1_pct": 18648,
+          "Ability_Atk2_pct": 18648
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FD_03",
+      "Name": "Ivory Hanzo (Basic)",
+      "Type": "GACHA",
+      "Speed": 3.7,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13599,
+          "Atk1": 11421,
+          "Atk2": 11421,
+          "Ability_Atk1_pct": 3769,
+          "Ability_Atk2_pct": 3769
+        },
+        "100": {
+          "Life": 43596,
+          "Atk1": 36614,
+          "Atk2": 36614,
+          "Ability_Atk1_pct": 12083,
+          "Ability_Atk2_pct": 12083
+        },
+        "150": {
+          "Life": 63594,
+          "Atk1": 53410,
+          "Atk2": 53410,
+          "Ability_Atk1_pct": 17625,
+          "Ability_Atk2_pct": 17625
+        },
+        "200": {
+          "Life": 83592,
+          "Atk1": 70206,
+          "Atk2": 70206,
+          "Ability_Atk1_pct": 23168,
+          "Ability_Atk2_pct": 23168
+        }
+      }
+    }
+  },
+  "Specimen_A_03": {
+    "old": {
+      "Specimen": "Specimen_A_03",
+      "Name": "Garuda (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 8.33,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 10866,
+          "Atk1": 2978,
+          "Atk2": 1863,
+          "Ability_Atk1_pct": 1340,
+          "Ability_Atk2_pct": 838
+        },
+        "100": {
+          "Life": 34836,
+          "Atk1": 9548,
+          "Atk2": 5973,
+          "Ability_Atk1_pct": 4297,
+          "Ability_Atk2_pct": 2688
+        },
+        "150": {
+          "Life": 50816,
+          "Atk1": 13928,
+          "Atk2": 8713,
+          "Ability_Atk1_pct": 6268,
+          "Ability_Atk2_pct": 3921
+        },
+        "200": {
+          "Life": 66796,
+          "Atk1": 18308,
+          "Atk2": 11453,
+          "Ability_Atk1_pct": 8239,
+          "Ability_Atk2_pct": 5154
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_A_03",
+      "Name": "Garuda (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 8.33,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 10866,
+          "Atk1": 3658,
+          "Atk2": 2543,
+          "Ability_Atk1_pct": 1829,
+          "Ability_Atk2_pct": 1272
+        },
+        "100": {
+          "Life": 34836,
+          "Atk1": 11728,
+          "Atk2": 8153,
+          "Ability_Atk1_pct": 5864,
+          "Ability_Atk2_pct": 4077
+        },
+        "150": {
+          "Life": 50816,
+          "Atk1": 17108,
+          "Atk2": 11893,
+          "Ability_Atk1_pct": 8554,
+          "Ability_Atk2_pct": 5947
+        },
+        "200": {
+          "Life": 66796,
+          "Atk1": 22488,
+          "Atk2": 15633,
+          "Ability_Atk1_pct": 11244,
+          "Ability_Atk2_pct": 7817
+        }
+      }
+    }
+  },
+  "Specimen_B_03": {
+    "old": {
+      "Specimen": "Specimen_B_03",
+      "Name": "Jack O'Lantern (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 7.14,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 9693,
+          "Atk1": 2655,
+          "Atk2": 1530,
+          "Ability_Atk1_pct": 1328,
+          "Ability_Atk2_pct": 765
+        },
+        "100": {
+          "Life": 31076,
+          "Atk1": 8513,
+          "Atk2": 4905,
+          "Ability_Atk1_pct": 4257,
+          "Ability_Atk2_pct": 2453
+        },
+        "150": {
+          "Life": 45331,
+          "Atk1": 12418,
+          "Atk2": 7155,
+          "Ability_Atk1_pct": 6209,
+          "Ability_Atk2_pct": 3578
+        },
+        "200": {
+          "Life": 59586,
+          "Atk1": 16323,
+          "Atk2": 9405,
+          "Ability_Atk1_pct": 8161,
+          "Ability_Atk2_pct": 4703
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_B_03",
+      "Name": "Jack O'Lantern (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 7.14,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 9693,
+          "Atk1": 4015,
+          "Atk2": 2550,
+          "Ability_Atk1_pct": 2008,
+          "Ability_Atk2_pct": 1275
+        },
+        "100": {
+          "Life": 31076,
+          "Atk1": 12873,
+          "Atk2": 8175,
+          "Ability_Atk1_pct": 6436,
+          "Ability_Atk2_pct": 4088
+        },
+        "150": {
+          "Life": 45331,
+          "Atk1": 18778,
+          "Atk2": 11925,
+          "Ability_Atk1_pct": 9389,
+          "Ability_Atk2_pct": 5963
+        },
+        "200": {
+          "Life": 59586,
+          "Atk1": 24683,
+          "Atk2": 15675,
+          "Ability_Atk1_pct": 12342,
+          "Ability_Atk2_pct": 7838
+        }
+      }
+    }
+  },
+  "Specimen_C_03": {
+    "old": {
+      "Specimen": "Specimen_C_03",
+      "Name": "Cryonos (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.0,
+      "Name_of_Ability": "Retaliate /",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 11101,
+          "Atk1": 5430,
+          "Atk2": 3121,
+          "Ability_Atk1_pct": 1358,
+          "Ability_Atk2_pct": 0
+        },
+        "100": {
+          "Life": 35589,
+          "Atk1": 17407,
+          "Atk2": 10006,
+          "Ability_Atk1_pct": 4352,
+          "Ability_Atk2_pct": 0
+        },
+        "150": {
+          "Life": 51914,
+          "Atk1": 25392,
+          "Atk2": 14596,
+          "Ability_Atk1_pct": 6348,
+          "Ability_Atk2_pct": 0
+        },
+        "200": {
+          "Life": 68239,
+          "Atk1": 33377,
+          "Atk2": 19186,
+          "Ability_Atk1_pct": 8344,
+          "Ability_Atk2_pct": 0
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_C_03",
+      "Name": "Cryonos (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.0,
+      "Name_of_Ability": "Retaliate /",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 11101,
+          "Atk1": 6450,
+          "Atk2": 3937,
+          "Ability_Atk1_pct": 2129,
+          "Ability_Atk2_pct": 0
+        },
+        "100": {
+          "Life": 35589,
+          "Atk1": 20677,
+          "Atk2": 12622,
+          "Ability_Atk1_pct": 6823,
+          "Ability_Atk2_pct": 0
+        },
+        "150": {
+          "Life": 51914,
+          "Atk1": 30162,
+          "Atk2": 18412,
+          "Ability_Atk1_pct": 9953,
+          "Ability_Atk2_pct": 0
+        },
+        "200": {
+          "Life": 68239,
+          "Atk1": 39647,
+          "Atk2": 24202,
+          "Ability_Atk1_pct": 13084,
+          "Ability_Atk2_pct": 0
+        }
+      }
+    }
+  },
+  "Specimen_FC_04": {
+    "old": {
+      "Specimen": "Specimen_FC_04",
+      "Name": "Mexihcatl (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.76,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11638,
+          "Atk1": 4169,
+          "Atk2": 4169,
+          "Ability_Atk1_pct": 1042,
+          "Ability_Atk2_pct": 1042
+        },
+        "100": {
+          "Life": 37311,
+          "Atk1": 13365,
+          "Atk2": 13365,
+          "Ability_Atk1_pct": 3341,
+          "Ability_Atk2_pct": 3341
+        },
+        "150": {
+          "Life": 54426,
+          "Atk1": 19496,
+          "Atk2": 19496,
+          "Ability_Atk1_pct": 4874,
+          "Ability_Atk2_pct": 4874
+        },
+        "200": {
+          "Life": 71541,
+          "Atk1": 25627,
+          "Atk2": 25627,
+          "Ability_Atk1_pct": 6407,
+          "Ability_Atk2_pct": 6407
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FC_04",
+      "Name": "Mexihcatl (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.76,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11638,
+          "Atk1": 6158,
+          "Atk2": 6158,
+          "Ability_Atk1_pct": 2463,
+          "Ability_Atk2_pct": 2463
+        },
+        "100": {
+          "Life": 37311,
+          "Atk1": 19742,
+          "Atk2": 19742,
+          "Ability_Atk1_pct": 7897,
+          "Ability_Atk2_pct": 7897
+        },
+        "150": {
+          "Life": 54426,
+          "Atk1": 28797,
+          "Atk2": 28797,
+          "Ability_Atk1_pct": 11519,
+          "Ability_Atk2_pct": 11519
+        },
+        "200": {
+          "Life": 71541,
+          "Atk1": 37853,
+          "Atk2": 37853,
+          "Ability_Atk1_pct": 15141,
+          "Ability_Atk2_pct": 15141
+        }
+      }
+    }
+  },
+  "Specimen_CE_05": {
+    "old": {
+      "Specimen": "Specimen_CE_05",
+      "Name": "Sun-Duke (Basic)",
+      "Type": "GACHA",
+      "Speed": 6.33,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 7882,
+          "Atk1": 6519,
+          "Atk2": 6519,
+          "Ability_Atk1_pct": 1956,
+          "Ability_Atk2_pct": 1956
+        },
+        "100": {
+          "Life": 25269,
+          "Atk1": 20899,
+          "Atk2": 20899,
+          "Ability_Atk1_pct": 6270,
+          "Ability_Atk2_pct": 6270
+        },
+        "150": {
+          "Life": 36860,
+          "Atk1": 30485,
+          "Atk2": 30485,
+          "Ability_Atk1_pct": 9146,
+          "Ability_Atk2_pct": 9146
+        },
+        "200": {
+          "Life": 48451,
+          "Atk1": 40072,
+          "Atk2": 40072,
+          "Ability_Atk1_pct": 12022,
+          "Ability_Atk2_pct": 12022
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CE_05",
+      "Name": "Sun-Duke (Basic)",
+      "Type": "GACHA",
+      "Speed": 6.45,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 9004,
+          "Atk1": 6519,
+          "Atk2": 6519,
+          "Ability_Atk1_pct": 2608,
+          "Ability_Atk2_pct": 2608
+        },
+        "100": {
+          "Life": 28866,
+          "Atk1": 20899,
+          "Atk2": 20899,
+          "Ability_Atk1_pct": 8360,
+          "Ability_Atk2_pct": 8360
+        },
+        "150": {
+          "Life": 42107,
+          "Atk1": 30485,
+          "Atk2": 30485,
+          "Ability_Atk1_pct": 12194,
+          "Ability_Atk2_pct": 12194
+        },
+        "200": {
+          "Life": 55348,
+          "Atk1": 40072,
+          "Atk2": 40072,
+          "Ability_Atk1_pct": 16029,
+          "Ability_Atk2_pct": 16029
+        }
+      }
+    }
+  },
+  "Specimen_DE_06": {
+    "old": {
+      "Specimen": "Specimen_DE_06",
+      "Name": "Darwin (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11271,
+          "Atk1": 3699,
+          "Atk2": 3699,
+          "Ability_Atk1_pct": 1406,
+          "Ability_Atk2_pct": 1406
+        },
+        "100": {
+          "Life": 36134,
+          "Atk1": 11859,
+          "Atk2": 11859,
+          "Ability_Atk1_pct": 4506,
+          "Ability_Atk2_pct": 4506
+        },
+        "150": {
+          "Life": 52709,
+          "Atk1": 17299,
+          "Atk2": 17299,
+          "Ability_Atk1_pct": 6574,
+          "Ability_Atk2_pct": 6574
+        },
+        "200": {
+          "Life": 69284,
+          "Atk1": 22739,
+          "Atk2": 22739,
+          "Ability_Atk1_pct": 8641,
+          "Ability_Atk2_pct": 8641
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DE_06",
+      "Name": "Darwin (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12291,
+          "Atk1": 3699,
+          "Atk2": 3699,
+          "Ability_Atk1_pct": 1406,
+          "Ability_Atk2_pct": 1406
+        },
+        "100": {
+          "Life": 39404,
+          "Atk1": 11859,
+          "Atk2": 11859,
+          "Ability_Atk1_pct": 4506,
+          "Ability_Atk2_pct": 4506
+        },
+        "150": {
+          "Life": 57479,
+          "Atk1": 17299,
+          "Atk2": 17299,
+          "Ability_Atk1_pct": 6574,
+          "Ability_Atk2_pct": 6574
+        },
+        "200": {
+          "Life": 75554,
+          "Atk1": 22739,
+          "Atk2": 22739,
+          "Ability_Atk1_pct": 8641,
+          "Ability_Atk2_pct": 8641
+        }
+      }
+    }
+  },
+  "Specimen_DF_06": {
+    "old": {
+      "Specimen": "Specimen_DF_06",
+      "Name": "Saber (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.26,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 10836,
+          "Atk1": 4325,
+          "Atk2": 4325,
+          "Ability_Atk1_pct": 1730,
+          "Ability_Atk2_pct": 1730
+        },
+        "100": {
+          "Life": 34738,
+          "Atk1": 13865,
+          "Atk2": 13865,
+          "Ability_Atk1_pct": 5546,
+          "Ability_Atk2_pct": 5546
+        },
+        "150": {
+          "Life": 50673,
+          "Atk1": 20225,
+          "Atk2": 20225,
+          "Ability_Atk1_pct": 8090,
+          "Ability_Atk2_pct": 8090
+        },
+        "200": {
+          "Life": 66608,
+          "Atk1": 26585,
+          "Atk2": 26585,
+          "Ability_Atk1_pct": 10634,
+          "Ability_Atk2_pct": 10634
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DF_06",
+      "Name": "Saber (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.26,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11856,
+          "Atk1": 5005,
+          "Atk2": 5005,
+          "Ability_Atk1_pct": 2503,
+          "Ability_Atk2_pct": 2503
+        },
+        "100": {
+          "Life": 38008,
+          "Atk1": 16045,
+          "Atk2": 16045,
+          "Ability_Atk1_pct": 8022,
+          "Ability_Atk2_pct": 8022
+        },
+        "150": {
+          "Life": 55443,
+          "Atk1": 23405,
+          "Atk2": 23405,
+          "Ability_Atk1_pct": 11703,
+          "Ability_Atk2_pct": 11703
+        },
+        "200": {
+          "Life": 72878,
+          "Atk1": 30765,
+          "Atk2": 30765,
+          "Ability_Atk1_pct": 15382,
+          "Ability_Atk2_pct": 15382
+        }
+      }
+    }
+  },
+  "Specimen_AC_07": {
+    "old": {
+      "Specimen": "Specimen_AC_07",
+      "Name": "Robo Fuerte (Basic)",
+      "Type": "GACHA",
+      "Speed": 4.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 14089,
+          "Atk1": 9604,
+          "Atk2": 9604,
+          "Ability_Atk1_pct": 4802,
+          "Ability_Atk2_pct": 4802
+        },
+        "100": {
+          "Life": 45169,
+          "Atk1": 30790,
+          "Atk2": 30790,
+          "Ability_Atk1_pct": 15395,
+          "Ability_Atk2_pct": 15395
+        },
+        "150": {
+          "Life": 65888,
+          "Atk1": 44914,
+          "Atk2": 44914,
+          "Ability_Atk1_pct": 22457,
+          "Ability_Atk2_pct": 22457
+        },
+        "200": {
+          "Life": 86608,
+          "Atk1": 59038,
+          "Atk2": 59038,
+          "Ability_Atk1_pct": 29519,
+          "Ability_Atk2_pct": 29519
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_AC_07",
+      "Name": "Robo Fuerte (Basic)",
+      "Type": "GACHA",
+      "Speed": 4.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 15381,
+          "Atk1": 11175,
+          "Atk2": 11175,
+          "Ability_Atk1_pct": 5588,
+          "Ability_Atk2_pct": 5588
+        },
+        "100": {
+          "Life": 49311,
+          "Atk1": 35826,
+          "Atk2": 35826,
+          "Ability_Atk1_pct": 17913,
+          "Ability_Atk2_pct": 17913
+        },
+        "150": {
+          "Life": 71930,
+          "Atk1": 52260,
+          "Atk2": 52260,
+          "Ability_Atk1_pct": 26130,
+          "Ability_Atk2_pct": 26130
+        },
+        "200": {
+          "Life": 94550,
+          "Atk1": 68694,
+          "Atk2": 68694,
+          "Ability_Atk1_pct": 34347,
+          "Ability_Atk2_pct": 34347
+        }
+      }
+    }
+  },
+  "Specimen_CD_07": {
+    "old": {
+      "Specimen": "Specimen_CD_07",
+      "Name": "Jack Ice (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.45,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 14124,
+          "Atk1": 6059,
+          "Atk2": 6059,
+          "Ability_Atk1_pct": 2424,
+          "Ability_Atk2_pct": 2424
+        },
+        "100": {
+          "Life": 45279,
+          "Atk1": 19424,
+          "Atk2": 19424,
+          "Ability_Atk1_pct": 7770,
+          "Ability_Atk2_pct": 7770
+        },
+        "150": {
+          "Life": 66049,
+          "Atk1": 28334,
+          "Atk2": 28334,
+          "Ability_Atk1_pct": 11334,
+          "Ability_Atk2_pct": 11334
+        },
+        "200": {
+          "Life": 86819,
+          "Atk1": 37244,
+          "Atk2": 37244,
+          "Ability_Atk1_pct": 14898,
+          "Ability_Atk2_pct": 14898
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CD_07",
+      "Name": "Jack Ice (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.45,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 14124,
+          "Atk1": 6603,
+          "Atk2": 6746,
+          "Ability_Atk1_pct": 2641,
+          "Ability_Atk2_pct": 2698
+        },
+        "100": {
+          "Life": 45279,
+          "Atk1": 21168,
+          "Atk2": 21626,
+          "Ability_Atk1_pct": 8467,
+          "Ability_Atk2_pct": 8650
+        },
+        "150": {
+          "Life": 66049,
+          "Atk1": 30878,
+          "Atk2": 31546,
+          "Ability_Atk1_pct": 12351,
+          "Ability_Atk2_pct": 12618
+        },
+        "200": {
+          "Life": 86819,
+          "Atk1": 40588,
+          "Atk2": 41466,
+          "Ability_Atk1_pct": 16235,
+          "Ability_Atk2_pct": 16586
+        }
+      }
+    }
+  },
+  "Specimen_EA_08": {
+    "old": {
+      "Specimen": "Specimen_EA_08",
+      "Name": "Lady Liberty (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.85,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12461,
+          "Atk1": 6263,
+          "Atk2": 6263,
+          "Ability_Atk1_pct": 1879,
+          "Ability_Atk2_pct": 1879
+        },
+        "100": {
+          "Life": 39949,
+          "Atk1": 20078,
+          "Atk2": 20078,
+          "Ability_Atk1_pct": 6023,
+          "Ability_Atk2_pct": 6023
+        },
+        "150": {
+          "Life": 58274,
+          "Atk1": 29288,
+          "Atk2": 29288,
+          "Ability_Atk1_pct": 8786,
+          "Ability_Atk2_pct": 8786
+        },
+        "200": {
+          "Life": 76599,
+          "Atk1": 38498,
+          "Atk2": 38498,
+          "Ability_Atk1_pct": 11549,
+          "Ability_Atk2_pct": 11549
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EA_08",
+      "Name": "Lady Liberty (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.85,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12801,
+          "Atk1": 6263,
+          "Atk2": 6263,
+          "Ability_Atk1_pct": 2192,
+          "Ability_Atk2_pct": 2192
+        },
+        "100": {
+          "Life": 41039,
+          "Atk1": 20078,
+          "Atk2": 20078,
+          "Ability_Atk1_pct": 7027,
+          "Ability_Atk2_pct": 7027
+        },
+        "150": {
+          "Life": 59864,
+          "Atk1": 29288,
+          "Atk2": 29288,
+          "Ability_Atk1_pct": 10251,
+          "Ability_Atk2_pct": 10251
+        },
+        "200": {
+          "Life": 78689,
+          "Atk1": 38498,
+          "Atk2": 38498,
+          "Ability_Atk1_pct": 13474,
+          "Ability_Atk2_pct": 13474
+        }
+      }
+    }
+  },
+  "Specimen_AB_09": {
+    "old": {
+      "Specimen": "Specimen_AB_09",
+      "Name": "Grumpy Claus (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.35,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12784,
+          "Atk1": 5709,
+          "Atk2": 5709,
+          "Ability_Atk1_pct": 1713,
+          "Ability_Atk2_pct": 1713
+        },
+        "100": {
+          "Life": 40984,
+          "Atk1": 18301,
+          "Atk2": 18301,
+          "Ability_Atk1_pct": 5490,
+          "Ability_Atk2_pct": 5490
+        },
+        "150": {
+          "Life": 59784,
+          "Atk1": 26696,
+          "Atk2": 26696,
+          "Ability_Atk1_pct": 8009,
+          "Ability_Atk2_pct": 8009
+        },
+        "200": {
+          "Life": 78584,
+          "Atk1": 35091,
+          "Atk2": 35091,
+          "Ability_Atk1_pct": 10527,
+          "Ability_Atk2_pct": 10527
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_AB_09",
+      "Name": "Grumpy Claus (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.44,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12784,
+          "Atk1": 5709,
+          "Atk2": 5709,
+          "Ability_Atk1_pct": 2284,
+          "Ability_Atk2_pct": 2284
+        },
+        "100": {
+          "Life": 40984,
+          "Atk1": 18301,
+          "Atk2": 18301,
+          "Ability_Atk1_pct": 7320,
+          "Ability_Atk2_pct": 7320
+        },
+        "150": {
+          "Life": 59784,
+          "Atk1": 26696,
+          "Atk2": 26696,
+          "Ability_Atk1_pct": 10678,
+          "Ability_Atk2_pct": 10678
+        },
+        "200": {
+          "Life": 78584,
+          "Atk1": 35091,
+          "Atk2": 35091,
+          "Ability_Atk1_pct": 14036,
+          "Ability_Atk2_pct": 14036
+        }
+      }
+    }
+  },
+  "Specimen_BF_09": {
+    "old": {
+      "Specimen": "Specimen_BF_09",
+      "Name": "Calaca (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.7,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 14783,
+          "Atk1": 7494,
+          "Atk2": 7494,
+          "Ability_Atk1_pct": 3747,
+          "Ability_Atk2_pct": 3747
+        },
+        "100": {
+          "Life": 47393,
+          "Atk1": 24024,
+          "Atk2": 24024,
+          "Ability_Atk1_pct": 12012,
+          "Ability_Atk2_pct": 12012
+        },
+        "150": {
+          "Life": 69133,
+          "Atk1": 35044,
+          "Atk2": 35044,
+          "Ability_Atk1_pct": 17522,
+          "Ability_Atk2_pct": 17522
+        },
+        "200": {
+          "Life": 90873,
+          "Atk1": 46064,
+          "Atk2": 46064,
+          "Ability_Atk1_pct": 23032,
+          "Ability_Atk2_pct": 23032
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_BF_09",
+      "Name": "Calaca (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.7,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 15463,
+          "Atk1": 7834,
+          "Atk2": 7834,
+          "Ability_Atk1_pct": 3917,
+          "Ability_Atk2_pct": 3917
+        },
+        "100": {
+          "Life": 49573,
+          "Atk1": 25114,
+          "Atk2": 25114,
+          "Ability_Atk1_pct": 12557,
+          "Ability_Atk2_pct": 12557
+        },
+        "150": {
+          "Life": 72313,
+          "Atk1": 36634,
+          "Atk2": 36634,
+          "Ability_Atk1_pct": 18317,
+          "Ability_Atk2_pct": 18317
+        },
+        "200": {
+          "Life": 95053,
+          "Atk1": 48154,
+          "Atk2": 48154,
+          "Ability_Atk1_pct": 24077,
+          "Ability_Atk2_pct": 24077
+        }
+      }
+    }
+  },
+"Specimen_FD_10": {
+    "old": {
+      "Specimen": "Specimen_FD_10",
+      "Name": "Master Paw",
+      "Type": "COMMUNITY",
+      "Speed": 3.45,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12522,
+          "Atk1": 6855,
+          "Atk2": 6855,
+          "Ability_Atk1_pct": 1714,
+          "Ability_Atk2_pct": 1714
+        },
+        "100": {
+          "Life": 40145,
+          "Atk1": 21975,
+          "Atk2": 21975,
+          "Ability_Atk1_pct": 5494,
+          "Ability_Atk2_pct": 5494
+        },
+        "150": {
+          "Life": 58560,
+          "Atk1": 32055,
+          "Atk2": 32055,
+          "Ability_Atk1_pct": 8014,
+          "Ability_Atk2_pct": 8014
+        },
+        "200": {
+          "Life": 76975,
+          "Atk1": 42135,
+          "Atk2": 42135,
+          "Ability_Atk1_pct": 10534,
+          "Ability_Atk2_pct": 10534
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FD_10",
+      "Name": "Master Paw",
+      "Type": "COMMUNITY",
+      "Speed": 3.57,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13542,
+          "Atk1": 6855,
+          "Atk2": 6855,
+          "Ability_Atk1_pct": 2057,
+          "Ability_Atk2_pct": 2057
+        },
+        "100": {
+          "Life": 43415,
+          "Atk1": 21975,
+          "Atk2": 21975,
+          "Ability_Atk1_pct": 6593,
+          "Ability_Atk2_pct": 6593
+        },
+        "150": {
+          "Life": 63330,
+          "Atk1": 32055,
+          "Atk2": 32055,
+          "Ability_Atk1_pct": 9617,
+          "Ability_Atk2_pct": 9617
+        },
+        "200": {
+          "Life": 83245,
+          "Atk1": 42135,
+          "Atk2": 42135,
+          "Ability_Atk1_pct": 12641,
+          "Ability_Atk2_pct": 12641
+        }
+      }
+    }
+  },
+  "Specimen_AD_11": {
+    "old": {
+      "Specimen": "Specimen_AD_11",
+      "Name": "Hatching Mecharachnidian (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 8.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "1p",
+      "levels": {
+        "25": {
+          "Life": 10033,
+          "Atk1": 2057,
+          "Atk2": 3577,
+          "Ability_Atk1_pct": 823,
+          "Ability_Atk2_pct": 1431
+        },
+        "100": {
+          "Life": 32166,
+          "Atk1": 6595,
+          "Atk2": 11467,
+          "Ability_Atk1_pct": 2638,
+          "Ability_Atk2_pct": 4587
+        },
+        "150": {
+          "Life": 46921,
+          "Atk1": 9620,
+          "Atk2": 16727,
+          "Ability_Atk1_pct": 3848,
+          "Ability_Atk2_pct": 6691
+        },
+        "200": {
+          "Life": 61676,
+          "Atk1": 12645,
+          "Atk2": 21987,
+          "Ability_Atk1_pct": 5058,
+          "Ability_Atk2_pct": 8795
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_AD_11",
+      "Name": "Hatching Mecharachnidian (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 8.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "1p",
+      "levels": {
+        "25": {
+          "Life": 10033,
+          "Atk1": 2737,
+          "Atk2": 4019,
+          "Ability_Atk1_pct": 1642,
+          "Ability_Atk2_pct": 2411
+        },
+        "100": {
+          "Life": 32166,
+          "Atk1": 8775,
+          "Atk2": 12884,
+          "Ability_Atk1_pct": 5265,
+          "Ability_Atk2_pct": 7730
+        },
+        "150": {
+          "Life": 46921,
+          "Atk1": 12800,
+          "Atk2": 18794,
+          "Ability_Atk1_pct": 7680,
+          "Ability_Atk2_pct": 11276
+        },
+        "200": {
+          "Life": 61676,
+          "Atk1": 16825,
+          "Atk2": 24704,
+          "Ability_Atk1_pct": 10095,
+          "Ability_Atk2_pct": 14822
+        }
+      }
+    }
+  },
+  "Specimen_CA_11": {
+    "old": {
+      "Specimen": "Specimen_CA_11",
+      "Name": "The Reef (Basic)",
+      "Type": "GACHA",
+      "Speed": 7.14,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 8684,
+          "Atk1": 5889,
+          "Atk2": 5889,
+          "Ability_Atk1_pct": 766,
+          "Ability_Atk2_pct": 766
+        },
+        "100": {
+          "Life": 27839,
+          "Atk1": 18879,
+          "Atk2": 18879,
+          "Ability_Atk1_pct": 2454,
+          "Ability_Atk2_pct": 2454
+        },
+        "150": {
+          "Life": 40609,
+          "Atk1": 27539,
+          "Atk2": 27539,
+          "Ability_Atk1_pct": 3580,
+          "Ability_Atk2_pct": 3580
+        },
+        "200": {
+          "Life": 53379,
+          "Atk1": 36199,
+          "Atk2": 36199,
+          "Ability_Atk1_pct": 4706,
+          "Ability_Atk2_pct": 4706
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CA_11",
+      "Name": "The Reef (Basic)",
+      "Type": "GACHA",
+      "Speed": 7.14,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 18204,
+          "Atk1": 9969,
+          "Atk2": 9969,
+          "Ability_Atk1_pct": 1296,
+          "Ability_Atk2_pct": 1296
+        },
+        "100": {
+          "Life": 58359,
+          "Atk1": 31959,
+          "Atk2": 31959,
+          "Ability_Atk1_pct": 4155,
+          "Ability_Atk2_pct": 4155
+        },
+        "150": {
+          "Life": 85129,
+          "Atk1": 46619,
+          "Atk2": 46619,
+          "Ability_Atk1_pct": 6060,
+          "Ability_Atk2_pct": 6060
+        },
+        "200": {
+          "Life": 111899,
+          "Atk1": 61279,
+          "Atk2": 61279,
+          "Ability_Atk1_pct": 7966,
+          "Ability_Atk2_pct": 7966
+        }
+      }
+    }
+  },
+  "Specimen_EC_11": {
+    "old": {
+      "Specimen": "Specimen_EC_11",
+      "Name": "Veren Kaeesu (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 9285,
+          "Atk1": 6429,
+          "Atk2": 6429,
+          "Ability_Atk1_pct": 2057,
+          "Ability_Atk2_pct": 2057
+        },
+        "100": {
+          "Life": 29768,
+          "Atk1": 20612,
+          "Atk2": 20612,
+          "Ability_Atk1_pct": 6596,
+          "Ability_Atk2_pct": 6596
+        },
+        "150": {
+          "Life": 43423,
+          "Atk1": 30067,
+          "Atk2": 30067,
+          "Ability_Atk1_pct": 9621,
+          "Ability_Atk2_pct": 9621
+        },
+        "200": {
+          "Life": 57078,
+          "Atk1": 39522,
+          "Atk2": 39522,
+          "Ability_Atk1_pct": 12647,
+          "Ability_Atk2_pct": 12647
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EC_11",
+      "Name": "Veren Kaeesu (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 9285,
+          "Atk1": 7789,
+          "Atk2": 7789,
+          "Ability_Atk1_pct": 2492,
+          "Ability_Atk2_pct": 2492
+        },
+        "100": {
+          "Life": 29768,
+          "Atk1": 24972,
+          "Atk2": 24972,
+          "Ability_Atk1_pct": 7991,
+          "Ability_Atk2_pct": 7991
+        },
+        "150": {
+          "Life": 43423,
+          "Atk1": 36427,
+          "Atk2": 36427,
+          "Ability_Atk1_pct": 11657,
+          "Ability_Atk2_pct": 11657
+        },
+        "200": {
+          "Life": 57078,
+          "Atk1": 47882,
+          "Atk2": 47882,
+          "Ability_Atk1_pct": 15322,
+          "Ability_Atk2_pct": 15322
+        }
+      }
+    }
+  },
+  "Specimen_BB_12": {
+    "old": {
+      "Specimen": "Specimen_BB_12",
+      "Name": "The Lantern Doctor (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.76,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 14005,
+          "Atk1": 6854,
+          "Atk2": 4869,
+          "Ability_Atk1_pct": 3290,
+          "Ability_Atk2_pct": 2337
+        },
+        "100": {
+          "Life": 44897,
+          "Atk1": 21974,
+          "Atk2": 15609,
+          "Ability_Atk1_pct": 10548,
+          "Ability_Atk2_pct": 7492
+        },
+        "150": {
+          "Life": 65492,
+          "Atk1": 32054,
+          "Atk2": 22769,
+          "Ability_Atk1_pct": 15386,
+          "Ability_Atk2_pct": 10929
+        },
+        "200": {
+          "Life": 86087,
+          "Atk1": 42134,
+          "Atk2": 29929,
+          "Ability_Atk1_pct": 20224,
+          "Ability_Atk2_pct": 14366
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_BB_12",
+      "Name": "The Lantern Doctor (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.76,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 14005,
+          "Atk1": 7874,
+          "Atk2": 5277,
+          "Ability_Atk1_pct": 3780,
+          "Ability_Atk2_pct": 2533
+        },
+        "100": {
+          "Life": 44897,
+          "Atk1": 25244,
+          "Atk2": 16917,
+          "Ability_Atk1_pct": 12117,
+          "Ability_Atk2_pct": 8120
+        },
+        "150": {
+          "Life": 65492,
+          "Atk1": 36824,
+          "Atk2": 24677,
+          "Ability_Atk1_pct": 17676,
+          "Ability_Atk2_pct": 11845
+        },
+        "200": {
+          "Life": 86087,
+          "Atk1": 48404,
+          "Atk2": 32437,
+          "Ability_Atk1_pct": 23234,
+          "Ability_Atk2_pct": 15570
+        }
+      }
+    }
+  },
+  "Specimen_CD_12": {
+    "old": {
+      "Specimen": "Specimen_CD_12",
+      "Name": "Captain Eagle (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.9,
+      "Name_of_Ability": "Retaliate /",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11880,
+          "Atk1": 5168,
+          "Atk2": 5168,
+          "Ability_Atk1_pct": 1550,
+          "Ability_Atk2_pct": 0
+        },
+        "100": {
+          "Life": 38085,
+          "Atk1": 16568,
+          "Atk2": 16568,
+          "Ability_Atk1_pct": 4970,
+          "Ability_Atk2_pct": 0
+        },
+        "150": {
+          "Life": 55555,
+          "Atk1": 24168,
+          "Atk2": 24168,
+          "Ability_Atk1_pct": 7250,
+          "Ability_Atk2_pct": 0
+        },
+        "200": {
+          "Life": 73025,
+          "Atk1": 31768,
+          "Atk2": 31768,
+          "Ability_Atk1_pct": 9530,
+          "Ability_Atk2_pct": 0
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CD_12",
+      "Name": "Captain Eagle (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.9,
+      "Name_of_Ability": "Retaliate /",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12900,
+          "Atk1": 5168,
+          "Atk2": 5168,
+          "Ability_Atk1_pct": 2067,
+          "Ability_Atk2_pct": 0
+        },
+        "100": {
+          "Life": 41355,
+          "Atk1": 16568,
+          "Atk2": 16568,
+          "Ability_Atk1_pct": 6627,
+          "Ability_Atk2_pct": 0
+        },
+        "150": {
+          "Life": 60325,
+          "Atk1": 24168,
+          "Atk2": 24168,
+          "Ability_Atk1_pct": 9667,
+          "Ability_Atk2_pct": 0
+        },
+        "200": {
+          "Life": 79295,
+          "Atk1": 31768,
+          "Atk2": 31768,
+          "Ability_Atk1_pct": 12707,
+          "Ability_Atk2_pct": 0
+        }
+      }
+    }
+  },
+  "Specimen_DD_12": {
+    "old": {
+      "Specimen": "Specimen_DD_12",
+      "Name": "Solar Lampyrion (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.25,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 16048,
+          "Atk1": 5586,
+          "Atk2": 2791,
+          "Ability_Atk1_pct": 2234,
+          "Ability_Atk2_pct": 1116
+        },
+        "100": {
+          "Life": 51448,
+          "Atk1": 17909,
+          "Atk2": 8949,
+          "Ability_Atk1_pct": 7164,
+          "Ability_Atk2_pct": 3580
+        },
+        "150": {
+          "Life": 75048,
+          "Atk1": 26124,
+          "Atk2": 13054,
+          "Ability_Atk1_pct": 10450,
+          "Ability_Atk2_pct": 5222
+        },
+        "200": {
+          "Life": 98648,
+          "Atk1": 34339,
+          "Atk2": 17159,
+          "Ability_Atk1_pct": 13736,
+          "Ability_Atk2_pct": 6864
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DD_12",
+      "Name": "Solar Lampyrion (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.25,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 16048,
+          "Atk1": 6606,
+          "Atk2": 4151,
+          "Ability_Atk1_pct": 2642,
+          "Ability_Atk2_pct": 1660
+        },
+        "100": {
+          "Life": 51448,
+          "Atk1": 21179,
+          "Atk2": 13309,
+          "Ability_Atk1_pct": 8472,
+          "Ability_Atk2_pct": 5324
+        },
+        "150": {
+          "Life": 75048,
+          "Atk1": 30894,
+          "Atk2": 19414,
+          "Ability_Atk1_pct": 12358,
+          "Ability_Atk2_pct": 7766
+        },
+        "200": {
+          "Life": 98648,
+          "Atk1": 40609,
+          "Atk2": 25519,
+          "Ability_Atk1_pct": 16244,
+          "Ability_Atk2_pct": 10208
+        }
+      }
+    }
+  },
+  "Specimen_DF_12": {
+    "old": {
+      "Specimen": "Specimen_DF_12",
+      "Name": "Basilisc&Tarragon (Basic)",
+      "Type": "GACHA",
+      "Speed": 3.23,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 22664,
+          "Atk1": 9391,
+          "Atk2": 9391,
+          "Ability_Atk1_pct": 3569,
+          "Ability_Atk2_pct": 3569
+        },
+        "100": {
+          "Life": 72659,
+          "Atk1": 30106,
+          "Atk2": 30106,
+          "Ability_Atk1_pct": 11440,
+          "Ability_Atk2_pct": 11440
+        },
+        "150": {
+          "Life": 105989,
+          "Atk1": 43916,
+          "Atk2": 43916,
+          "Ability_Atk1_pct": 16688,
+          "Ability_Atk2_pct": 16688
+        },
+        "200": {
+          "Life": 139319,
+          "Atk1": 57726,
+          "Atk2": 57726,
+          "Ability_Atk1_pct": 21936,
+          "Ability_Atk2_pct": 21936
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DF_12",
+      "Name": "Basilisc&Tarragon (Basic)",
+      "Type": "GACHA",
+      "Speed": 3.23,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 27424,
+          "Atk1": 13199,
+          "Atk2": 13471,
+          "Ability_Atk1_pct": 5280,
+          "Ability_Atk2_pct": 5388
+        },
+        "100": {
+          "Life": 87919,
+          "Atk1": 42314,
+          "Atk2": 43186,
+          "Ability_Atk1_pct": 16926,
+          "Ability_Atk2_pct": 17274
+        },
+        "150": {
+          "Life": 128249,
+          "Atk1": 61724,
+          "Atk2": 62996,
+          "Ability_Atk1_pct": 24690,
+          "Ability_Atk2_pct": 25198
+        },
+        "200": {
+          "Life": 168579,
+          "Atk1": 81134,
+          "Atk2": 82806,
+          "Ability_Atk1_pct": 32454,
+          "Ability_Atk2_pct": 33122
+        }
+      }
+    }
+  },
+  "Specimen_EE_12": {
+    "old": {
+      "Specimen": "Specimen_EE_12",
+      "Name": "Polaris (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.26,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 13379,
+          "Atk1": 7585,
+          "Atk2": 5607,
+          "Ability_Atk1_pct": 3641,
+          "Ability_Atk2_pct": 2691
+        },
+        "100": {
+          "Life": 42892,
+          "Atk1": 24318,
+          "Atk2": 17974,
+          "Ability_Atk1_pct": 11673,
+          "Ability_Atk2_pct": 8628
+        },
+        "150": {
+          "Life": 62567,
+          "Atk1": 35473,
+          "Atk2": 26219,
+          "Ability_Atk1_pct": 17027,
+          "Ability_Atk2_pct": 12585
+        },
+        "200": {
+          "Life": 82242,
+          "Atk1": 46628,
+          "Atk2": 34464,
+          "Ability_Atk1_pct": 22381,
+          "Ability_Atk2_pct": 16543
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EE_12",
+      "Name": "Polaris (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.26,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 13379,
+          "Atk1": 8265,
+          "Atk2": 5607,
+          "Ability_Atk1_pct": 4133,
+          "Ability_Atk2_pct": 2804
+        },
+        "100": {
+          "Life": 42892,
+          "Atk1": 26498,
+          "Atk2": 17974,
+          "Ability_Atk1_pct": 13249,
+          "Ability_Atk2_pct": 8987
+        },
+        "150": {
+          "Life": 62567,
+          "Atk1": 38653,
+          "Atk2": 26219,
+          "Ability_Atk1_pct": 19327,
+          "Ability_Atk2_pct": 13110
+        },
+        "200": {
+          "Life": 82242,
+          "Atk1": 50808,
+          "Atk2": 34464,
+          "Ability_Atk1_pct": 25404,
+          "Ability_Atk2_pct": 17232
+        }
+      }
+    }
+  },
+  "Specimen_FC_12": {
+    "old": {
+      "Specimen": "Specimen_FC_12",
+      "Name": "Generalissimo Chocoleon IV (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.26,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 17337,
+          "Atk1": 5151,
+          "Atk2": 5151,
+          "Ability_Atk1_pct": 2060,
+          "Ability_Atk2_pct": 2060
+        },
+        "100": {
+          "Life": 55579,
+          "Atk1": 16514,
+          "Atk2": 16514,
+          "Ability_Atk1_pct": 6606,
+          "Ability_Atk2_pct": 6606
+        },
+        "150": {
+          "Life": 81074,
+          "Atk1": 24089,
+          "Atk2": 24089,
+          "Ability_Atk1_pct": 9636,
+          "Ability_Atk2_pct": 9636
+        },
+        "200": {
+          "Life": 106569,
+          "Atk1": 31664,
+          "Atk2": 31664,
+          "Ability_Atk1_pct": 12666,
+          "Ability_Atk2_pct": 12666
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FC_12",
+      "Name": "Generalissimo Chocoleon IV (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.26,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 19377,
+          "Atk1": 5151,
+          "Atk2": 5151,
+          "Ability_Atk1_pct": 1545,
+          "Ability_Atk2_pct": 1545
+        },
+        "100": {
+          "Life": 62119,
+          "Atk1": 16514,
+          "Atk2": 16514,
+          "Ability_Atk1_pct": 4954,
+          "Ability_Atk2_pct": 4954
+        },
+        "150": {
+          "Life": 90614,
+          "Atk1": 24089,
+          "Atk2": 24089,
+          "Ability_Atk1_pct": 7227,
+          "Ability_Atk2_pct": 7227
+        },
+        "200": {
+          "Life": 119109,
+          "Atk1": 31664,
+          "Atk2": 31664,
+          "Ability_Atk1_pct": 9499,
+          "Ability_Atk2_pct": 9499
+        }
+      }
+    }
+  },
+  "Specimen_BF_13": {
+    "old": {
+      "Specimen": "Specimen_BF_13",
+      "Name": "Soul Coalescence (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.35,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 15460,
+          "Atk1": 6021,
+          "Atk2": 6021,
+          "Ability_Atk1_pct": 2107,
+          "Ability_Atk2_pct": 2107
+        },
+        "100": {
+          "Life": 49562,
+          "Atk1": 19304,
+          "Atk2": 19304,
+          "Ability_Atk1_pct": 6756,
+          "Ability_Atk2_pct": 6756
+        },
+        "150": {
+          "Life": 72297,
+          "Atk1": 28159,
+          "Atk2": 28159,
+          "Ability_Atk1_pct": 9856,
+          "Ability_Atk2_pct": 9856
+        },
+        "200": {
+          "Life": 95032,
+          "Atk1": 37014,
+          "Atk2": 37014,
+          "Ability_Atk1_pct": 12955,
+          "Ability_Atk2_pct": 12955
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_BF_13",
+      "Name": "Soul Coalescence (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.35,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 16480,
+          "Atk1": 6021,
+          "Atk2": 6021,
+          "Ability_Atk1_pct": 2709,
+          "Ability_Atk2_pct": 2709
+        },
+        "100": {
+          "Life": 52832,
+          "Atk1": 19304,
+          "Atk2": 19304,
+          "Ability_Atk1_pct": 8687,
+          "Ability_Atk2_pct": 8687
+        },
+        "150": {
+          "Life": 77067,
+          "Atk1": 28159,
+          "Atk2": 28159,
+          "Ability_Atk1_pct": 12672,
+          "Ability_Atk2_pct": 12672
+        },
+        "200": {
+          "Life": 101302,
+          "Atk1": 37014,
+          "Atk2": 37014,
+          "Ability_Atk1_pct": 16656,
+          "Ability_Atk2_pct": 16656
+        }
+      }
+    }
+  },
+  "Specimen_CA_13": {
+    "old": {
+      "Specimen": "Specimen_CA_13",
+      "Name": "Anteros (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.26,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 11676,
+          "Atk1": 5675,
+          "Atk2": 5675,
+          "Ability_Atk1_pct": 1816,
+          "Ability_Atk2_pct": 1816
+        },
+        "100": {
+          "Life": 37431,
+          "Atk1": 18192,
+          "Atk2": 18192,
+          "Ability_Atk1_pct": 5821,
+          "Ability_Atk2_pct": 5821
+        },
+        "150": {
+          "Life": 54601,
+          "Atk1": 26537,
+          "Atk2": 26537,
+          "Ability_Atk1_pct": 8492,
+          "Ability_Atk2_pct": 8492
+        },
+        "200": {
+          "Life": 71771,
+          "Atk1": 34882,
+          "Atk2": 34882,
+          "Ability_Atk1_pct": 11162,
+          "Ability_Atk2_pct": 11162
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CA_13",
+      "Name": "Anteros (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.26,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13036,
+          "Atk1": 6355,
+          "Atk2": 6355,
+          "Ability_Atk1_pct": 2542,
+          "Ability_Atk2_pct": 2542
+        },
+        "100": {
+          "Life": 41791,
+          "Atk1": 20372,
+          "Atk2": 20372,
+          "Ability_Atk1_pct": 8149,
+          "Ability_Atk2_pct": 8149
+        },
+        "150": {
+          "Life": 60961,
+          "Atk1": 29717,
+          "Atk2": 29717,
+          "Ability_Atk1_pct": 11887,
+          "Ability_Atk2_pct": 11887
+        },
+        "200": {
+          "Life": 80131,
+          "Atk1": 39062,
+          "Atk2": 39062,
+          "Ability_Atk1_pct": 15625,
+          "Ability_Atk2_pct": 15625
+        }
+      }
+    }
+  },
+  "Specimen_EB_13": {
+    "old": {
+      "Specimen": "Specimen_EB_13",
+      "Name": "Xinomas (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.26,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12849,
+          "Atk1": 6229,
+          "Atk2": 6229,
+          "Ability_Atk1_pct": 1869,
+          "Ability_Atk2_pct": 1869
+        },
+        "100": {
+          "Life": 41191,
+          "Atk1": 19969,
+          "Atk2": 19969,
+          "Ability_Atk1_pct": 5991,
+          "Ability_Atk2_pct": 5991
+        },
+        "150": {
+          "Life": 60086,
+          "Atk1": 29129,
+          "Atk2": 29129,
+          "Ability_Atk1_pct": 8739,
+          "Ability_Atk2_pct": 8739
+        },
+        "200": {
+          "Life": 78981,
+          "Atk1": 38289,
+          "Atk2": 38289,
+          "Ability_Atk1_pct": 11487,
+          "Ability_Atk2_pct": 11487
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EB_13",
+      "Name": "Xinomas (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.41,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 12849,
+          "Atk1": 6909,
+          "Atk2": 6909,
+          "Ability_Atk1_pct": 2211,
+          "Ability_Atk2_pct": 2211
+        },
+        "100": {
+          "Life": 41191,
+          "Atk1": 22149,
+          "Atk2": 22149,
+          "Ability_Atk1_pct": 7088,
+          "Ability_Atk2_pct": 7088
+        },
+        "150": {
+          "Life": 60086,
+          "Atk1": 32309,
+          "Atk2": 32309,
+          "Ability_Atk1_pct": 10339,
+          "Ability_Atk2_pct": 10339
+        },
+        "200": {
+          "Life": 78981,
+          "Atk1": 42469,
+          "Atk2": 42469,
+          "Ability_Atk1_pct": 13590,
+          "Ability_Atk2_pct": 13590
+        }
+      }
+    }
+  },
+  "Specimen_FA_13": {
+    "old": {
+      "Specimen": "Specimen_FA_13",
+      "Name": "Boreal Helix (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 5.71,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 9700,
+          "Atk1": 3869,
+          "Atk2": 2870,
+          "Ability_Atk1_pct": 2321,
+          "Ability_Atk2_pct": 1722
+        },
+        "100": {
+          "Life": 31098,
+          "Atk1": 12404,
+          "Atk2": 9200,
+          "Ability_Atk1_pct": 7442,
+          "Ability_Atk2_pct": 5520
+        },
+        "150": {
+          "Life": 45363,
+          "Atk1": 18094,
+          "Atk2": 13420,
+          "Ability_Atk1_pct": 10856,
+          "Ability_Atk2_pct": 8052
+        },
+        "200": {
+          "Life": 59628,
+          "Atk1": 23784,
+          "Atk2": 17640,
+          "Ability_Atk1_pct": 14270,
+          "Ability_Atk2_pct": 10584
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FA_13",
+      "Name": "Boreal Helix (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 5.71,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 9700,
+          "Atk1": 5569,
+          "Atk2": 3550,
+          "Ability_Atk1_pct": 3898,
+          "Ability_Atk2_pct": 2485
+        },
+        "100": {
+          "Life": 31098,
+          "Atk1": 17854,
+          "Atk2": 11380,
+          "Ability_Atk1_pct": 12498,
+          "Ability_Atk2_pct": 7966
+        },
+        "150": {
+          "Life": 45363,
+          "Atk1": 26044,
+          "Atk2": 16600,
+          "Ability_Atk1_pct": 18231,
+          "Ability_Atk2_pct": 11620
+        },
+        "200": {
+          "Life": 59628,
+          "Atk1": 34234,
+          "Atk2": 21820,
+          "Ability_Atk1_pct": 23964,
+          "Ability_Atk2_pct": 15274
+        }
+      }
+    }
+  },
+  "Specimen_AA_99": {
+    "old": {
+      "Specimen": "Specimen_AA_99",
+      "Name": "A00-C0R3-C0NTR0L (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.0,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 15711,
+          "Atk1": 6327,
+          "Atk2": 3475,
+          "Ability_Atk1_pct": 3480,
+          "Ability_Atk2_pct": 1911
+        },
+        "100": {
+          "Life": 50369,
+          "Atk1": 20285,
+          "Atk2": 11140,
+          "Ability_Atk1_pct": 11157,
+          "Ability_Atk2_pct": 6127
+        },
+        "150": {
+          "Life": 73474,
+          "Atk1": 29590,
+          "Atk2": 16250,
+          "Ability_Atk1_pct": 16274,
+          "Ability_Atk2_pct": 8938
+        },
+        "200": {
+          "Life": 96579,
+          "Atk1": 38895,
+          "Atk2": 21360,
+          "Ability_Atk1_pct": 21392,
+          "Ability_Atk2_pct": 11748
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_AA_99",
+      "Name": "A00-C0R3-C0NTR0L (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.0,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 16391,
+          "Atk1": 6735,
+          "Atk2": 4155,
+          "Ability_Atk1_pct": 4378,
+          "Ability_Atk2_pct": 2701
+        },
+        "100": {
+          "Life": 52549,
+          "Atk1": 21593,
+          "Atk2": 13320,
+          "Ability_Atk1_pct": 14035,
+          "Ability_Atk2_pct": 8658
+        },
+        "150": {
+          "Life": 76654,
+          "Atk1": 31498,
+          "Atk2": 19430,
+          "Ability_Atk1_pct": 20474,
+          "Ability_Atk2_pct": 12630
+        },
+        "200": {
+          "Life": 100759,
+          "Atk1": 41403,
+          "Atk2": 25540,
+          "Ability_Atk1_pct": 26912,
+          "Ability_Atk2_pct": 16601
+        }
+      }
+    }
+  },
+  "Specimen_AE_99": {
+    "old": {
+      "Specimen": "Specimen_AE_99",
+      "Name": "Randonymous (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 12124,
+          "Atk1": 7902,
+          "Atk2": 5063,
+          "Ability_Atk1_pct": 2529,
+          "Ability_Atk2_pct": 1620
+        },
+        "100": {
+          "Life": 38869,
+          "Atk1": 25332,
+          "Atk2": 16230,
+          "Ability_Atk1_pct": 8106,
+          "Ability_Atk2_pct": 5194
+        },
+        "150": {
+          "Life": 56699,
+          "Atk1": 36952,
+          "Atk2": 23675,
+          "Ability_Atk1_pct": 11825,
+          "Ability_Atk2_pct": 7576
+        },
+        "200": {
+          "Life": 74529,
+          "Atk1": 48572,
+          "Atk2": 31120,
+          "Ability_Atk1_pct": 15543,
+          "Ability_Atk2_pct": 9958
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_AE_99",
+      "Name": "Randonymous (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 12430,
+          "Atk1": 8242,
+          "Atk2": 5403,
+          "Ability_Atk1_pct": 2473,
+          "Ability_Atk2_pct": 1621
+        },
+        "100": {
+          "Life": 39850,
+          "Atk1": 26422,
+          "Atk2": 17320,
+          "Ability_Atk1_pct": 7927,
+          "Ability_Atk2_pct": 5196
+        },
+        "150": {
+          "Life": 58130,
+          "Atk1": 38542,
+          "Atk2": 25265,
+          "Ability_Atk1_pct": 11563,
+          "Ability_Atk2_pct": 7580
+        },
+        "200": {
+          "Life": 76410,
+          "Atk1": 50662,
+          "Atk2": 33210,
+          "Ability_Atk1_pct": 15199,
+          "Ability_Atk2_pct": 9963
+        }
+      }
+    }
+  },
+  "Specimen_CA_99": {
+    "old": {
+      "Specimen": "Specimen_CA_99",
+      "Name": "Awakened Missy (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.13,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 8541,
+          "Atk1": 8231,
+          "Atk2": 8231,
+          "Ability_Atk1_pct": 1235,
+          "Ability_Atk2_pct": 1235
+        },
+        "100": {
+          "Life": 27381,
+          "Atk1": 26389,
+          "Atk2": 26389,
+          "Ability_Atk1_pct": 3958,
+          "Ability_Atk2_pct": 3958
+        },
+        "150": {
+          "Life": 39941,
+          "Atk1": 38494,
+          "Atk2": 38494,
+          "Ability_Atk1_pct": 5774,
+          "Ability_Atk2_pct": 5774
+        },
+        "200": {
+          "Life": 52501,
+          "Atk1": 50599,
+          "Atk2": 50599,
+          "Ability_Atk1_pct": 7590,
+          "Ability_Atk2_pct": 7590
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CA_99",
+      "Name": "Awakened Missy (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.13,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 9561,
+          "Atk1": 9251,
+          "Atk2": 9251,
+          "Ability_Atk1_pct": 1850,
+          "Ability_Atk2_pct": 1850
+        },
+        "100": {
+          "Life": 30651,
+          "Atk1": 29659,
+          "Atk2": 29659,
+          "Ability_Atk1_pct": 5932,
+          "Ability_Atk2_pct": 5932
+        },
+        "150": {
+          "Life": 44711,
+          "Atk1": 43264,
+          "Atk2": 43264,
+          "Ability_Atk1_pct": 8653,
+          "Ability_Atk2_pct": 8653
+        },
+        "200": {
+          "Life": 58771,
+          "Atk1": 56869,
+          "Atk2": 56869,
+          "Ability_Atk1_pct": 11374,
+          "Ability_Atk2_pct": 11374
+        }
+      }
+    }
+  },
+  "Specimen_CE_99": {
+    "old": {
+      "Specimen": "Specimen_CE_99",
+      "Name": "Kolossus (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.51,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 19652,
+          "Atk1": 8527,
+          "Atk2": 8527,
+          "Ability_Atk1_pct": 1023,
+          "Ability_Atk2_pct": 1023
+        },
+        "100": {
+          "Life": 63002,
+          "Atk1": 27337,
+          "Atk2": 27337,
+          "Ability_Atk1_pct": 3280,
+          "Ability_Atk2_pct": 3280
+        },
+        "150": {
+          "Life": 91902,
+          "Atk1": 39877,
+          "Atk2": 39877,
+          "Ability_Atk1_pct": 4785,
+          "Ability_Atk2_pct": 4785
+        },
+        "200": {
+          "Life": 120802,
+          "Atk1": 52417,
+          "Atk2": 52417,
+          "Ability_Atk1_pct": 6290,
+          "Ability_Atk2_pct": 6290
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_CE_99",
+      "Name": "Kolossus (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.51,
+      "Name_of_Ability": "Retaliate / Retaliate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 20505,
+          "Atk1": 8527,
+          "Atk2": 8527,
+          "Ability_Atk1_pct": 1109,
+          "Ability_Atk2_pct": 1109
+        },
+        "100": {
+          "Life": 65738,
+          "Atk1": 27337,
+          "Atk2": 27337,
+          "Ability_Atk1_pct": 3554,
+          "Ability_Atk2_pct": 3554
+        },
+        "150": {
+          "Life": 95893,
+          "Atk1": 39877,
+          "Atk2": 39877,
+          "Ability_Atk1_pct": 5184,
+          "Ability_Atk2_pct": 5184
+        },
+        "200": {
+          "Life": 126048,
+          "Atk1": 52417,
+          "Atk2": 52417,
+          "Ability_Atk1_pct": 6814,
+          "Ability_Atk2_pct": 6814
+        }
+      }
+    }
+  },
+  "Specimen_DF_99": {
+    "old": {
+      "Specimen": "Specimen_DF_99",
+      "Name": "Genimal (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 10.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 8643,
+          "Atk1": 2145,
+          "Atk2": 2145,
+          "Ability_Atk1_pct": 751,
+          "Ability_Atk2_pct": 751
+        },
+        "100": {
+          "Life": 27708,
+          "Atk1": 6878,
+          "Atk2": 6878,
+          "Ability_Atk1_pct": 2407,
+          "Ability_Atk2_pct": 2407
+        },
+        "150": {
+          "Life": 40418,
+          "Atk1": 10033,
+          "Atk2": 10033,
+          "Ability_Atk1_pct": 3512,
+          "Ability_Atk2_pct": 3512
+        },
+        "200": {
+          "Life": 53128,
+          "Atk1": 13188,
+          "Atk2": 13188,
+          "Ability_Atk1_pct": 4616,
+          "Ability_Atk2_pct": 4616
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DF_99",
+      "Name": "Genimal (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 10.0,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 8643,
+          "Atk1": 3505,
+          "Atk2": 3505,
+          "Ability_Atk1_pct": 1052,
+          "Ability_Atk2_pct": 1052
+        },
+        "100": {
+          "Life": 27708,
+          "Atk1": 11238,
+          "Atk2": 11238,
+          "Ability_Atk1_pct": 3371,
+          "Ability_Atk2_pct": 3371
+        },
+        "150": {
+          "Life": 40418,
+          "Atk1": 16393,
+          "Atk2": 16393,
+          "Ability_Atk1_pct": 4918,
+          "Ability_Atk2_pct": 4918
+        },
+        "200": {
+          "Life": 53128,
+          "Atk1": 21548,
+          "Atk2": 21548,
+          "Ability_Atk1_pct": 6464,
+          "Ability_Atk2_pct": 6464
+        }
+      }
+    }
+  },
+  "Specimen_EB_99": {
+    "old": {
+      "Specimen": "Specimen_EB_99",
+      "Name": "Diablo (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.33,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13172,
+          "Atk1": 8140,
+          "Atk2": 8140,
+          "Ability_Atk1_pct": 2442,
+          "Ability_Atk2_pct": 2442
+        },
+        "100": {
+          "Life": 42227,
+          "Atk1": 26095,
+          "Atk2": 26095,
+          "Ability_Atk1_pct": 7829,
+          "Ability_Atk2_pct": 7829
+        },
+        "150": {
+          "Life": 61597,
+          "Atk1": 38065,
+          "Atk2": 38065,
+          "Ability_Atk1_pct": 11420,
+          "Ability_Atk2_pct": 11420
+        },
+        "200": {
+          "Life": 80967,
+          "Atk1": 50035,
+          "Atk2": 50035,
+          "Ability_Atk1_pct": 15011,
+          "Ability_Atk2_pct": 15011
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EB_99",
+      "Name": "Diablo (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.33,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13172,
+          "Atk1": 8480,
+          "Atk2": 8480,
+          "Ability_Atk1_pct": 2883,
+          "Ability_Atk2_pct": 2883
+        },
+        "100": {
+          "Life": 42227,
+          "Atk1": 27185,
+          "Atk2": 27185,
+          "Ability_Atk1_pct": 9243,
+          "Ability_Atk2_pct": 9243
+        },
+        "150": {
+          "Life": 61597,
+          "Atk1": 39655,
+          "Atk2": 39655,
+          "Ability_Atk1_pct": 13483,
+          "Ability_Atk2_pct": 13483
+        },
+        "200": {
+          "Life": 80967,
+          "Atk1": 52125,
+          "Atk2": 52125,
+          "Ability_Atk1_pct": 17723,
+          "Ability_Atk2_pct": 17723
+        }
+      }
+    }
+  },
+  "Specimen_ED_99": {
+    "old": {
+      "Specimen": "Specimen_ED_99",
+      "Name": "Ctopy (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.57,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 15290,
+          "Atk1": 5362,
+          "Atk2": 2679,
+          "Ability_Atk1_pct": 2413,
+          "Ability_Atk2_pct": 1206
+        },
+        "100": {
+          "Life": 49017,
+          "Atk1": 17189,
+          "Atk2": 8589,
+          "Ability_Atk1_pct": 7735,
+          "Ability_Atk2_pct": 3865
+        },
+        "150": {
+          "Life": 71502,
+          "Atk1": 25074,
+          "Atk2": 12529,
+          "Ability_Atk1_pct": 11283,
+          "Ability_Atk2_pct": 5638
+        },
+        "200": {
+          "Life": 93987,
+          "Atk1": 32959,
+          "Atk2": 16469,
+          "Ability_Atk1_pct": 14832,
+          "Ability_Atk2_pct": 7411
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_ED_99",
+      "Name": "Ctopy (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.57,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 15970,
+          "Atk1": 5702,
+          "Atk2": 3359,
+          "Ability_Atk1_pct": 2566,
+          "Ability_Atk2_pct": 1512
+        },
+        "100": {
+          "Life": 51197,
+          "Atk1": 18279,
+          "Atk2": 10769,
+          "Ability_Atk1_pct": 8226,
+          "Ability_Atk2_pct": 4846
+        },
+        "150": {
+          "Life": 74682,
+          "Atk1": 26664,
+          "Atk2": 15709,
+          "Ability_Atk1_pct": 11999,
+          "Ability_Atk2_pct": 7069
+        },
+        "200": {
+          "Life": 98167,
+          "Atk1": 35049,
+          "Atk2": 20649,
+          "Ability_Atk1_pct": 15772,
+          "Ability_Atk2_pct": 9292
+        }
+      }
+    }
+  },
+  "Specimen_EE_99": {
+    "old": {
+      "Specimen": "Specimen_EE_99",
+      "Name": "Irreality Animus (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.67,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 15565,
+          "Atk1": 5654,
+          "Atk2": 2825,
+          "Ability_Atk1_pct": 1696,
+          "Ability_Atk2_pct": 848
+        },
+        "100": {
+          "Life": 49900,
+          "Atk1": 18127,
+          "Atk2": 9058,
+          "Ability_Atk1_pct": 5438,
+          "Ability_Atk2_pct": 2717
+        },
+        "150": {
+          "Life": 72790,
+          "Atk1": 26442,
+          "Atk2": 13213,
+          "Ability_Atk1_pct": 7933,
+          "Ability_Atk2_pct": 3964
+        },
+        "200": {
+          "Life": 95680,
+          "Atk1": 34757,
+          "Atk2": 17368,
+          "Ability_Atk1_pct": 10427,
+          "Ability_Atk2_pct": 5210
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EE_99",
+      "Name": "Irreality Animus (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 6.67,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 15565,
+          "Atk1": 6334,
+          "Atk2": 3845,
+          "Ability_Atk1_pct": 1900,
+          "Ability_Atk2_pct": 1154
+        },
+        "100": {
+          "Life": 49900,
+          "Atk1": 20307,
+          "Atk2": 12328,
+          "Ability_Atk1_pct": 6092,
+          "Ability_Atk2_pct": 3698
+        },
+        "150": {
+          "Life": 72790,
+          "Atk1": 29622,
+          "Atk2": 17983,
+          "Ability_Atk1_pct": 8887,
+          "Ability_Atk2_pct": 5395
+        },
+        "200": {
+          "Life": 95680,
+          "Atk1": 38937,
+          "Atk2": 23638,
+          "Ability_Atk1_pct": 11681,
+          "Ability_Atk2_pct": 7091
+        }
+      }
+    }
+  },
+  "Specimen_EF_99": {
+    "old": {
+      "Specimen": "Specimen_EF_99",
+      "Name": "Singularity Wizard (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.0,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "1p",
+      "levels": {
+        "25": {
+          "Life": 13943,
+          "Atk1": 3835,
+          "Atk2": 6800,
+          "Ability_Atk1_pct": 1266,
+          "Ability_Atk2_pct": 2244
+        },
+        "100": {
+          "Life": 44701,
+          "Atk1": 12295,
+          "Atk2": 21800,
+          "Ability_Atk1_pct": 4057,
+          "Ability_Atk2_pct": 7194
+        },
+        "150": {
+          "Life": 65206,
+          "Atk1": 17935,
+          "Atk2": 31800,
+          "Ability_Atk1_pct": 5919,
+          "Ability_Atk2_pct": 10494
+        },
+        "200": {
+          "Life": 85711,
+          "Atk1": 23575,
+          "Atk2": 41800,
+          "Ability_Atk1_pct": 7780,
+          "Ability_Atk2_pct": 13794
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EF_99",
+      "Name": "Singularity Wizard (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.0,
+      "Name_of_Ability": "Strengthen / Strengthen",
+      "Multiple": "1p",
+      "levels": {
+        "25": {
+          "Life": 14283,
+          "Atk1": 3937,
+          "Atk2": 7140,
+          "Ability_Atk1_pct": 1496,
+          "Ability_Atk2_pct": 2713
+        },
+        "100": {
+          "Life": 45791,
+          "Atk1": 12622,
+          "Atk2": 22890,
+          "Ability_Atk1_pct": 4796,
+          "Ability_Atk2_pct": 8698
+        },
+        "150": {
+          "Life": 66796,
+          "Atk1": 18412,
+          "Atk2": 33390,
+          "Ability_Atk1_pct": 6997,
+          "Ability_Atk2_pct": 12688
+        },
+        "200": {
+          "Life": 87801,
+          "Atk1": 24202,
+          "Atk2": 43890,
+          "Ability_Atk1_pct": 9197,
+          "Ability_Atk2_pct": 16678
+        }
+      }
+    }
+  },
+  "Specimen_FA_99": {
+    "old": {
+      "Specimen": "Specimen_FA_99",
+      "Name": "Archangel (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.85,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13858,
+          "Atk1": 6331,
+          "Atk2": 6331,
+          "Ability_Atk1_pct": 1899,
+          "Ability_Atk2_pct": 1899
+        },
+        "100": {
+          "Life": 44428,
+          "Atk1": 20296,
+          "Atk2": 20296,
+          "Ability_Atk1_pct": 6089,
+          "Ability_Atk2_pct": 6089
+        },
+        "150": {
+          "Life": 64808,
+          "Atk1": 29606,
+          "Atk2": 29606,
+          "Ability_Atk1_pct": 8882,
+          "Ability_Atk2_pct": 8882
+        },
+        "200": {
+          "Life": 85188,
+          "Atk1": 38916,
+          "Atk2": 38916,
+          "Ability_Atk1_pct": 11675,
+          "Ability_Atk2_pct": 11675
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FA_99",
+      "Name": "Archangel (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.85,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 17258,
+          "Atk1": 7691,
+          "Atk2": 7691,
+          "Ability_Atk1_pct": 2307,
+          "Ability_Atk2_pct": 2307
+        },
+        "100": {
+          "Life": 55328,
+          "Atk1": 24656,
+          "Atk2": 24656,
+          "Ability_Atk1_pct": 7397,
+          "Ability_Atk2_pct": 7397
+        },
+        "150": {
+          "Life": 80708,
+          "Atk1": 35966,
+          "Atk2": 35966,
+          "Ability_Atk1_pct": 10790,
+          "Ability_Atk2_pct": 10790
+        },
+        "200": {
+          "Life": 106088,
+          "Atk1": 47276,
+          "Atk2": 47276,
+          "Ability_Atk1_pct": 14183,
+          "Ability_Atk2_pct": 14183
+        }
+      }
+    }
+  },
+  "Specimen_FF_99": {
+    "old": {
+      "Specimen": "Specimen_FF_99",
+      "Name": "Emotional Maskerade (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.39,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 18122,
+          "Atk1": 8945,
+          "Atk2": 6157,
+          "Ability_Atk1_pct": 3310,
+          "Ability_Atk2_pct": 2278
+        },
+        "100": {
+          "Life": 58097,
+          "Atk1": 28678,
+          "Atk2": 19740,
+          "Ability_Atk1_pct": 10611,
+          "Ability_Atk2_pct": 7304
+        },
+        "150": {
+          "Life": 84747,
+          "Atk1": 41833,
+          "Atk2": 28795,
+          "Ability_Atk1_pct": 15478,
+          "Ability_Atk2_pct": 10654
+        },
+        "200": {
+          "Life": 111397,
+          "Atk1": 54988,
+          "Atk2": 37850,
+          "Ability_Atk1_pct": 20346,
+          "Ability_Atk2_pct": 14005
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FF_99",
+      "Name": "Emotional Maskerade (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.39,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 18122,
+          "Atk1": 9285,
+          "Atk2": 6497,
+          "Ability_Atk1_pct": 3621,
+          "Ability_Atk2_pct": 2534
+        },
+        "100": {
+          "Life": 58097,
+          "Atk1": 29768,
+          "Atk2": 20830,
+          "Ability_Atk1_pct": 11610,
+          "Ability_Atk2_pct": 8124
+        },
+        "150": {
+          "Life": 84747,
+          "Atk1": 43423,
+          "Atk2": 30385,
+          "Ability_Atk1_pct": 16935,
+          "Ability_Atk2_pct": 11850
+        },
+        "200": {
+          "Life": 111397,
+          "Atk1": 57078,
+          "Atk2": 39940,
+          "Ability_Atk1_pct": 22260,
+          "Ability_Atk2_pct": 15577
+        }
+      }
+    }
+  },
+  "Specimen_BA_14": {
+    "old": {
+      "Specimen": "Specimen_BA_14",
+      "Name": "Mecargoyle (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 7551,
+          "Atk1": 6229,
+          "Atk2": 6229,
+          "Ability_Atk1_pct": 5606,
+          "Ability_Atk2_pct": 5606
+        },
+        "100": {
+          "Life": 24209,
+          "Atk1": 19969,
+          "Atk2": 19969,
+          "Ability_Atk1_pct": 17972,
+          "Ability_Atk2_pct": 17972
+        },
+        "150": {
+          "Life": 35314,
+          "Atk1": 29129,
+          "Atk2": 29129,
+          "Ability_Atk1_pct": 26216,
+          "Ability_Atk2_pct": 26216
+        },
+        "200": {
+          "Life": 46419,
+          "Atk1": 38289,
+          "Atk2": 38289,
+          "Ability_Atk1_pct": 34460,
+          "Ability_Atk2_pct": 34460
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_BA_14",
+      "Name": "Mecargoyle (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 5.88,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 8231,
+          "Atk1": 6229,
+          "Atk2": 6229,
+          "Ability_Atk1_pct": 6852,
+          "Ability_Atk2_pct": 6852
+        },
+        "100": {
+          "Life": 26389,
+          "Atk1": 19969,
+          "Atk2": 19969,
+          "Ability_Atk1_pct": 21966,
+          "Ability_Atk2_pct": 21966
+        },
+        "150": {
+          "Life": 38494,
+          "Atk1": 29129,
+          "Atk2": 29129,
+          "Ability_Atk1_pct": 32042,
+          "Ability_Atk2_pct": 32042
+        },
+        "200": {
+          "Life": 50599,
+          "Atk1": 38289,
+          "Atk2": 38289,
+          "Ability_Atk1_pct": 42118,
+          "Ability_Atk2_pct": 42118
+        }
+      }
+    }
+  },
+  "Specimen_BC_14": {
+    "old": {
+      "Specimen": "Specimen_BC_14",
+      "Name": "Perfitrouille (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 9.09,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 4869,
+          "Atk1": 5161,
+          "Atk2": 5399,
+          "Ability_Atk1_pct": 1806,
+          "Ability_Atk2_pct": 1890
+        },
+        "100": {
+          "Life": 15609,
+          "Atk1": 16546,
+          "Atk2": 17309,
+          "Ability_Atk1_pct": 5791,
+          "Ability_Atk2_pct": 6058
+        },
+        "150": {
+          "Life": 22769,
+          "Atk1": 24136,
+          "Atk2": 25249,
+          "Ability_Atk1_pct": 8448,
+          "Ability_Atk2_pct": 8837
+        },
+        "200": {
+          "Life": 29929,
+          "Atk1": 31726,
+          "Atk2": 33189,
+          "Ability_Atk1_pct": 11104,
+          "Ability_Atk2_pct": 11616
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_BC_14",
+      "Name": "Perfitrouille (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 9.52,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 4869,
+          "Atk1": 5161,
+          "Atk2": 5399,
+          "Ability_Atk1_pct": 2271,
+          "Ability_Atk2_pct": 2376
+        },
+        "100": {
+          "Life": 15609,
+          "Atk1": 16546,
+          "Atk2": 17309,
+          "Ability_Atk1_pct": 7280,
+          "Ability_Atk2_pct": 7616
+        },
+        "150": {
+          "Life": 22769,
+          "Atk1": 24136,
+          "Atk2": 25249,
+          "Ability_Atk1_pct": 10620,
+          "Ability_Atk2_pct": 11110
+        },
+        "200": {
+          "Life": 29929,
+          "Atk1": 31726,
+          "Atk2": 33189,
+          "Ability_Atk1_pct": 13959,
+          "Ability_Atk2_pct": 14603
+        }
+      }
+    }
+  },
+  "Specimen_DB_14": {
+    "old": {
+      "Specimen": "Specimen_DB_14",
+      "Name": "The Crawling Madness (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.57,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 13556,
+          "Atk1": 6045,
+          "Atk2": 3352,
+          "Ability_Atk1_pct": 2418,
+          "Ability_Atk2_pct": 1341
+        },
+        "100": {
+          "Life": 43458,
+          "Atk1": 19380,
+          "Atk2": 10747,
+          "Ability_Atk1_pct": 7752,
+          "Ability_Atk2_pct": 4299
+        },
+        "150": {
+          "Life": 63393,
+          "Atk1": 28270,
+          "Atk2": 15677,
+          "Ability_Atk1_pct": 11308,
+          "Ability_Atk2_pct": 6271
+        },
+        "200": {
+          "Life": 83328,
+          "Atk1": 37160,
+          "Atk2": 20607,
+          "Ability_Atk1_pct": 14864,
+          "Ability_Atk2_pct": 8243
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DB_14",
+      "Name": "The Crawling Madness (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.57,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 13556,
+          "Atk1": 7405,
+          "Atk2": 4882,
+          "Ability_Atk1_pct": 3332,
+          "Ability_Atk2_pct": 2197
+        },
+        "100": {
+          "Life": 43458,
+          "Atk1": 23740,
+          "Atk2": 15652,
+          "Ability_Atk1_pct": 10683,
+          "Ability_Atk2_pct": 7043
+        },
+        "150": {
+          "Life": 63393,
+          "Atk1": 34630,
+          "Atk2": 22832,
+          "Ability_Atk1_pct": 15584,
+          "Ability_Atk2_pct": 10274
+        },
+        "200": {
+          "Life": 83328,
+          "Atk1": 45520,
+          "Atk2": 30012,
+          "Ability_Atk1_pct": 20484,
+          "Ability_Atk2_pct": 13505
+        }
+      }
+    }
+  },
+  "Specimen_DC_14": {
+    "old": {
+      "Specimen": "Specimen_DC_14",
+      "Name": "Jurassic Terror (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.45,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13182,
+          "Atk1": 6960,
+          "Atk2": 6960,
+          "Ability_Atk1_pct": 4176,
+          "Ability_Atk2_pct": 4176
+        },
+        "100": {
+          "Life": 42259,
+          "Atk1": 22312,
+          "Atk2": 22312,
+          "Ability_Atk1_pct": 13387,
+          "Ability_Atk2_pct": 13387
+        },
+        "150": {
+          "Life": 61644,
+          "Atk1": 32547,
+          "Atk2": 32547,
+          "Ability_Atk1_pct": 19528,
+          "Ability_Atk2_pct": 19528
+        },
+        "200": {
+          "Life": 81029,
+          "Atk1": 42782,
+          "Atk2": 42782,
+          "Ability_Atk1_pct": 25669,
+          "Ability_Atk2_pct": 25669
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DC_14",
+      "Name": "Jurassic Terror (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.45,
+      "Name_of_Ability": "Slash / Slash",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13182,
+          "Atk1": 7300,
+          "Atk2": 7300,
+          "Ability_Atk1_pct": 5840,
+          "Ability_Atk2_pct": 5840
+        },
+        "100": {
+          "Life": 42259,
+          "Atk1": 23402,
+          "Atk2": 23402,
+          "Ability_Atk1_pct": 18722,
+          "Ability_Atk2_pct": 18722
+        },
+        "150": {
+          "Life": 61644,
+          "Atk1": 34137,
+          "Atk2": 34137,
+          "Ability_Atk1_pct": 27310,
+          "Ability_Atk2_pct": 27310
+        },
+        "200": {
+          "Life": 81029,
+          "Atk1": 44872,
+          "Atk2": 44872,
+          "Ability_Atk1_pct": 35898,
+          "Ability_Atk2_pct": 35898
+        }
+      }
+    }
+  },
+  "Specimen_DE_14": {
+    "old": {
+      "Specimen": "Specimen_DE_14",
+      "Name": "Supermassive Infinity (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.77,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 15864,
+          "Atk1": 6780,
+          "Atk2": 6780,
+          "Ability_Atk1_pct": 4068,
+          "Ability_Atk2_pct": 4068
+        },
+        "100": {
+          "Life": 50859,
+          "Atk1": 21735,
+          "Atk2": 21735,
+          "Ability_Atk1_pct": 13041,
+          "Ability_Atk2_pct": 13041
+        },
+        "150": {
+          "Life": 74189,
+          "Atk1": 31705,
+          "Atk2": 31705,
+          "Ability_Atk1_pct": 19023,
+          "Ability_Atk2_pct": 19023
+        },
+        "200": {
+          "Life": 97519,
+          "Atk1": 41675,
+          "Atk2": 41675,
+          "Ability_Atk1_pct": 25005,
+          "Ability_Atk2_pct": 25005
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_DE_14",
+      "Name": "Supermassive Infinity (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 3.85,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 15864,
+          "Atk1": 6780,
+          "Atk2": 6780,
+          "Ability_Atk1_pct": 4068,
+          "Ability_Atk2_pct": 4068
+        },
+        "100": {
+          "Life": 50859,
+          "Atk1": 21735,
+          "Atk2": 21735,
+          "Ability_Atk1_pct": 13041,
+          "Ability_Atk2_pct": 13041
+        },
+        "150": {
+          "Life": 74189,
+          "Atk1": 31705,
+          "Atk2": 31705,
+          "Ability_Atk1_pct": 19023,
+          "Ability_Atk2_pct": 19023
+        },
+        "200": {
+          "Life": 97519,
+          "Atk1": 41675,
+          "Atk2": 41675,
+          "Ability_Atk1_pct": 25005,
+          "Ability_Atk2_pct": 25005
+        }
+      }
+    }
+  },
+  "Specimen_EF_14": {
+    "old": {
+      "Specimen": "Specimen_EF_14",
+      "Name": "K'Yu T'ypaï (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 9.09,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 7188,
+          "Atk1": 3699,
+          "Atk2": 2604,
+          "Ability_Atk1_pct": 1110,
+          "Ability_Atk2_pct": 781
+        },
+        "100": {
+          "Life": 23043,
+          "Atk1": 11859,
+          "Atk2": 8349,
+          "Ability_Atk1_pct": 3558,
+          "Ability_Atk2_pct": 2505
+        },
+        "150": {
+          "Life": 33613,
+          "Atk1": 17299,
+          "Atk2": 12179,
+          "Ability_Atk1_pct": 5190,
+          "Ability_Atk2_pct": 3654
+        },
+        "200": {
+          "Life": 44183,
+          "Atk1": 22739,
+          "Atk2": 16009,
+          "Ability_Atk1_pct": 6822,
+          "Ability_Atk2_pct": 4803
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_EF_14",
+      "Name": "K'Yu T'ypaï (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 9.52,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 7188,
+          "Atk1": 3699,
+          "Atk2": 2604,
+          "Ability_Atk1_pct": 1221,
+          "Ability_Atk2_pct": 859
+        },
+        "100": {
+          "Life": 23043,
+          "Atk1": 11859,
+          "Atk2": 8349,
+          "Ability_Atk1_pct": 3913,
+          "Ability_Atk2_pct": 2755
+        },
+        "150": {
+          "Life": 33613,
+          "Atk1": 17299,
+          "Atk2": 12179,
+          "Ability_Atk1_pct": 5709,
+          "Ability_Atk2_pct": 4019
+        },
+        "200": {
+          "Life": 44183,
+          "Atk1": 22739,
+          "Atk2": 16009,
+          "Ability_Atk1_pct": 7504,
+          "Ability_Atk2_pct": 5283
+        }
+      }
+    }
+  },
+  "Specimen_FB_14": {
+    "old": {
+      "Specimen": "Specimen_FB_14",
+      "Name": "Zagam, Great King of Greed (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.08,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 22664,
+          "Atk1": 7993,
+          "Atk2": 7993,
+          "Ability_Atk1_pct": 1998,
+          "Ability_Atk2_pct": 1998
+        },
+        "100": {
+          "Life": 72659,
+          "Atk1": 25626,
+          "Atk2": 25626,
+          "Ability_Atk1_pct": 6407,
+          "Ability_Atk2_pct": 6407
+        },
+        "150": {
+          "Life": 105989,
+          "Atk1": 37381,
+          "Atk2": 37381,
+          "Ability_Atk1_pct": 9345,
+          "Ability_Atk2_pct": 9345
+        },
+        "200": {
+          "Life": 139319,
+          "Atk1": 49136,
+          "Atk2": 49136,
+          "Ability_Atk1_pct": 12284,
+          "Ability_Atk2_pct": 12284
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FB_14",
+      "Name": "Zagam, Great King of Greed (Basic)",
+      "Type": "CAPTAINPEACE",
+      "Speed": 4.17,
+      "Name_of_Ability": "Weaken / Weaken",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 22664,
+          "Atk1": 7993,
+          "Atk2": 7993,
+          "Ability_Atk1_pct": 2798,
+          "Ability_Atk2_pct": 2798
+        },
+        "100": {
+          "Life": 72659,
+          "Atk1": 25626,
+          "Atk2": 25626,
+          "Ability_Atk1_pct": 8969,
+          "Ability_Atk2_pct": 8969
+        },
+        "150": {
+          "Life": 105989,
+          "Atk1": 37381,
+          "Atk2": 37381,
+          "Ability_Atk1_pct": 13083,
+          "Ability_Atk2_pct": 13083
+        },
+        "200": {
+          "Life": 139319,
+          "Atk1": 49136,
+          "Atk2": 49136,
+          "Ability_Atk1_pct": 17198,
+          "Ability_Atk2_pct": 17198
+        }
+      }
+    }
+  },
+  "Specimen_FD_14": {
+    "old": {
+      "Specimen": "Specimen_FD_14",
+      "Name": "Vanir Queen Freyja (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.08,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 13899,
+          "Atk1": 8320,
+          "Atk2": 8320,
+          "Ability_Atk1_pct": 4160,
+          "Ability_Atk2_pct": 4160
+        },
+        "100": {
+          "Life": 44559,
+          "Atk1": 26672,
+          "Atk2": 26672,
+          "Ability_Atk1_pct": 13336,
+          "Ability_Atk2_pct": 13336
+        },
+        "150": {
+          "Life": 64999,
+          "Atk1": 38907,
+          "Atk2": 38907,
+          "Ability_Atk1_pct": 19454,
+          "Ability_Atk2_pct": 19454
+        },
+        "200": {
+          "Life": 85439,
+          "Atk1": 51142,
+          "Atk2": 51142,
+          "Ability_Atk1_pct": 25571,
+          "Ability_Atk2_pct": 25571
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FD_14",
+      "Name": "Vanir Queen Freyja (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 4.08,
+      "Name_of_Ability": "Regenerate / Regenerate",
+      "Multiple": "",
+      "levels": {
+        "25": {
+          "Life": 14579,
+          "Atk1": 8320,
+          "Atk2": 8320,
+          "Ability_Atk1_pct": 4160,
+          "Ability_Atk2_pct": 4160
+        },
+        "100": {
+          "Life": 46739,
+          "Atk1": 26672,
+          "Atk2": 26672,
+          "Ability_Atk1_pct": 13336,
+          "Ability_Atk2_pct": 13336
+        },
+        "150": {
+          "Life": 68179,
+          "Atk1": 38907,
+          "Atk2": 38907,
+          "Ability_Atk1_pct": 19454,
+          "Ability_Atk2_pct": 19454
+        },
+        "200": {
+          "Life": 89619,
+          "Atk1": 51142,
+          "Atk2": 51142,
+          "Ability_Atk1_pct": 25571,
+          "Ability_Atk2_pct": 25571
+        }
+      }
+    }
+  },
+  "Specimen_FF_14": {
+    "old": {
+      "Specimen": "Specimen_FF_14",
+      "Name": "Twilight Prophet (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.57,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 3842,
+          "Atk1": 10258,
+          "Atk2": 6882,
+          "Ability_Atk1_pct": 4103,
+          "Ability_Atk2_pct": 2753
+        },
+        "100": {
+          "Life": 12317,
+          "Atk1": 32885,
+          "Atk2": 22062,
+          "Ability_Atk1_pct": 13154,
+          "Ability_Atk2_pct": 8825
+        },
+        "150": {
+          "Life": 17967,
+          "Atk1": 47970,
+          "Atk2": 32182,
+          "Ability_Atk1_pct": 19188,
+          "Ability_Atk2_pct": 12873
+        },
+        "200": {
+          "Life": 23617,
+          "Atk1": 63055,
+          "Atk2": 42302,
+          "Ability_Atk1_pct": 25222,
+          "Ability_Atk2_pct": 16921
+        }
+      }
+    },
+    "new": {
+      "Specimen": "Specimen_FF_14",
+      "Name": "Twilight Prophet (Basic)",
+      "Type": "SEASONAL",
+      "Speed": 3.64,
+      "Name_of_Ability": "Shield / Shield",
+      "Multiple": "2p",
+      "levels": {
+        "25": {
+          "Life": 3842,
+          "Atk1": 10258,
+          "Atk2": 6882,
+          "Ability_Atk1_pct": 4924,
+          "Ability_Atk2_pct": 3303
+        },
+        "100": {
+          "Life": 12317,
+          "Atk1": 32885,
+          "Atk2": 22062,
+          "Ability_Atk1_pct": 15785,
+          "Ability_Atk2_pct": 10590
+        },
+        "150": {
+          "Life": 17967,
+          "Atk1": 47970,
+          "Atk2": 32182,
+          "Ability_Atk1_pct": 23026,
+          "Ability_Atk2_pct": 15447
+        },
+        "200": {
+          "Life": 23617,
+          "Atk1": 63055,
+          "Atk2": 42302,
+          "Ability_Atk1_pct": 30266,
+          "Ability_Atk2_pct": 20305
+        }
+      }
+    }
+  }
+}
