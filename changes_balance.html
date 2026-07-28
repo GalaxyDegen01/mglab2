@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Modified Mutants Preview - MGG</title>
+<style>
+:root {
+    --bg-dark: #0a0b10;
+    --card-bg: #12131c;
+    --panel-bg: #1a1c29;
+    --accent-gold: linear-gradient(135deg, #00c3ff, #00aeff);
+    --green-up: #00ff88;
+    --red-down: #ff3366;
+    --text-muted: #8e95b3;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg-dark);
+    background-image: radial-gradient(circle at 50% 0%, #1d2136 0%, var(--bg-dark) 70%);
+    color: #e2e8f0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-bar {
+    width: 100%;
+    max-width: 720px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.header-bar h2 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+/* Level Selector */
+.level-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.lvl-btn {
+    background: #1a1c29;
+    border: 1px solid #2e334d;
+    color: var(--text-muted);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lvl-btn:hover {
+    border-color: #00ccff;
+    color: #fff;
+}
+
+.lvl-btn.active {
+    background: #00c3ff;
+    color: #0a0b10;
+    border-color: #00c3ff;
+    box-shadow: 0 0 12px rgba(0, 195, 255, 0.4);
+}
+
+input#search {
+    width: 100%;
+    padding: 14px 18px;
+    background: rgba(26, 28, 41, 0.8);
+    border: 1px solid #2e334d;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input#search:focus {
+    border-color: #00ccff;
+    box-shadow: 0 0 12px rgba(0, 204, 255, 0.2);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+    max-width: 720px;
+}
+
+/* GAMER / UI CARD STYLE */
+.card {
+    background: var(--card-bg);
+    border: 1px solid #23273a;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border-color: #3b4263;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+/* STATS PANELS */
+.stats-panel {
+    background: var(--panel-bg);
+    border: 1px solid #282c42;
+    border-radius: 12px;
+    padding: 14px 16px;
+    width: 34%;
+    box-sizing: border-box;
+}
+
+.panel-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: #11131d;
+    color: var(--text-muted);
+}
+
+.panel-title.now {
+    background: rgba(0, 255, 136, 0.1);
+    color: var(--green-up);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.stats-panel table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-panel td {
+    padding: 5px 0;
+    font-size: 13px;
+}
+
+.lbl {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.val {
+    text-align: right;
+    font-weight: 700;
+    color: #f1f5f9;
+}
+
+/* HIGHLIGHT STATS WITH GLOW */
+.val.up {
+    color: var(--green-up);
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+}
+
+.val.down {
+    color: var(--red-down);
+    text-shadow: 0 0 8px rgba(255, 51, 102, 0.3);
+}
+
+/* CENTRAL IMAGE CONTAINER */
+.image-panel {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-panel img {
+    max-width: 100%;
+    max-height: 190px;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.9));
+}
+
+/* CARD FOOTER */
+.card-footer {
+    text-align: center;
+    padding-top: 5px;
+    border-top: 1px dashed #23273a;
+}
+
+.mutant-name {
+    font-size: 21px;
+    font-weight: 900;
+    background: var(--accent-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.mutant-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+.badge-tag {
+    display: inline-block;
+    background: #23273a;
+    color: #cbd5e1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-left: 4px;
+}
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+    <h2 id="total-count">Modified Specimens (0)</h2>
+    
+    <!-- Level Buttons -->
+    <div class="level-selector">
+        <button class="lvl-btn active" onclick="changeLevel('25')">Lvl 25</button>
+        <button class="lvl-btn" onclick="changeLevel('100')">Lvl 100</button>
+        <button class="lvl-btn" onclick="changeLevel('150')">Lvl 150</button>
+        <button class="lvl-btn" onclick="changeLevel('200')">Lvl 200</button>
+    </div>
+
+    <input type="text" id="search" onkeyup="filterCards()" placeholder="Search by mutant, genes, type, or ability...">
+</div>
+
+<div class="cards-container" id="container">
+    <!-- Cards will be dynamically generated here -->
+</div>
+
+<script>
+let globalData = {};
+let currentLevel = '25';
+
+// Gene Mapping Dictionary
+const geneMap = {
+    'A': 'Cyber',
+    'B': 'Necro',
+    'C': 'Saber',
+    'D': 'Zoomorf',
+    'E': 'Galactic',
+    'F': 'Mythic'
+};
+
+// Helper function to resolve genes from Specimen ID (e.g. "Specimen_FD_03" -> "Mythic / Zoomorf")
+function getGenesFromSpecimen(specimenId) {
+    const code = specimenId.replace(/^Specimen_/i, '').split('_')[0].toUpperCase();
+    if (code.length >= 2) {
+        const gene1 = geneMap[code[0]] || code[0];
+        const gene2 = geneMap[code[1]] || code[1];
+        return `${gene1} / ${gene2}`;
+    } else if (code.length === 1) {
+        return geneMap[code[0]] || code[0];
+    }
+    return 'Unknown';
+}
+
+// Format numbers with commas (e.g. 13,599)
+function formatNum(num) {
+    return Number(num).toLocaleString('en-US');
+}
+
+// Fetch JSON and initialize
+async function loadMutants() {
+    try {
+        const response = await fetch('mutantes_modificados.json');
+        globalData = await response.json();
+        
+        const count = Object.keys(globalData).length;
+        document.getElementById('total-count').textContent = `Modified Specimens (${count})`;
+
+        renderCards();
+    } catch (e) {
+        console.error("Error loading mutantes_modificados.json:", e);
+        document.getElementById('container').innerHTML = "<p style='text-align:center;'>Error loading JSON data.</p>";
+    }
+}
+
+// Change active level
+function changeLevel(lvl) {
+    currentLevel = lvl;
+    document.querySelectorAll('.lvl-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.includes(lvl));
+    });
+    renderCards();
+}
+
+// Render mutant cards
+function renderCards() {
+    const container = document.getElementById('container');
+    container.innerHTML = '';
+
+    for (const [specimenId, item] of Object.entries(globalData)) {
+        const oldData = item.old;
+        const newData = item.new;
+
+        // 1. Clean mutant name (remove "(Basic)")
+        const rawName = newData.Name || '';
+        const name = rawName.replace(/\s*\(Basic\)/gi, '').trim();
+
+        // 2. Format image filename: "Specimen_CA_11" -> "ca_11.png"
+        const cleanImgName = specimenId.replace(/^Specimen_/i, '').toLowerCase();
+        const imagePath = `images/${cleanImgName}.png`;
+
+        // 3. Resolve Genes
+        const genes = getGenesFromSpecimen(specimenId);
+
+        const type = newData.Type;
+        const ability = newData.Name_of_Ability;
+        const isAOE = newData.Multiple.toLowerCase().includes('multi') || newData.Multiple.toLowerCase().includes('1p');
+        const aoeBadge = isAOE ? ' <span class="badge-tag">AOE</span>' : '';
+
+        // Stats for selected level
+        const oldLvl = oldData.levels[currentLevel] || {};
+        const newLvl = newData.levels[currentLevel] || {};
+
+        // Helper to compare and set up/down classes
+        function getStatRow(label, oldVal, newVal, isFloat = false) {
+            let cls = '';
+            let symbol = '';
+
+            if (newVal > oldVal) {
+                cls = 'up';
+                symbol = ' ▲';
+            } else if (newVal < oldVal) {
+                cls = 'down';
+                symbol = ' ▼';
+            }
+
+            const oldFormatted = isFloat ? oldVal : formatNum(oldVal);
+            const newFormatted = isFloat ? newVal : formatNum(newVal);
+
+            return {
+                oldHtml: `<tr><td class="lbl">${label}</td><td class="val">${oldFormatted}</td></tr>`,
+                newHtml: `<tr><td class="lbl">${label}</td><td class="val ${cls}">${newFormatted}${symbol}</td></tr>`
+            };
+        }
+
+        // Special row for Atk 2 with AOE badge
+        function getAtk2Row(oldVal, newVal) {
+            let cls = '';
+            let symbol = '';
+            if (newVal > oldVal) { cls = 'up'; symbol = ' ▲'; }
+            else if (newVal < oldVal) { cls = 'down'; symbol = ' ▼'; }
+
+            return {
+                oldHtml: `<tr><td class="lbl">Atk 2</td><td class="val">${formatNum(oldVal)}${aoeBadge}</td></tr>`,
+                newHtml: `<tr><td class="lbl">Atk 2</td><td class="val ${cls}">${formatNum(newVal)}${symbol}${aoeBadge}</td></tr>`
+            };
+        }
+
+        const life = getStatRow('Health', oldLvl.Life || 0, newLvl.Life || 0);
+        const speed = getStatRow('Speed', oldData.Speed || 0, newData.Speed || 0, true);
+        const atk1 = getStatRow('Atk 1', oldLvl.Atk1 || 0, newLvl.Atk1 || 0);
+        const atk2 = getAtk2Row(oldLvl.Atk2 || 0, newLvl.Atk2 || 0);
+        const hab = getStatRow('Ability', oldLvl.Ability_Atk1_pct || 0, newLvl.Ability_Atk1_pct || 0);
+
+        // Search text
+        const searchKeywords = `${name} ${genes} ${type} ${ability} ${specimenId} ${cleanImgName}`.toLowerCase();
+
+        // Card HTML construction
+        const cardHtml = `
+        <div class="card" data-search="${searchKeywords}">
+            <div class="card-body">
+                <!-- BEFORE -->
+                <div class="stats-panel">
+                    <div class="panel-title">BEFORE</div>
+                    <table>
+                        ${life.oldHtml}
+                        ${speed.oldHtml}
+                        ${atk1.oldHtml}
+                        ${atk2.oldHtml}
+                        ${hab.oldHtml}
+                    </table>
+                </div>
+
+                <!-- IMAGE -->
+                <div class="image-panel">
+                    <img src="${imagePath}" alt="${name}" onerror="this.src='https://via.placeholder.com/150x180/1a1c29/00c3ff?text=${encodeURIComponent(name)}';">
+                </div>
+
+                <!-- NOW -->
+                <div class="stats-panel">
+                    <div class="panel-title now">NOW</div>
+                    <table>
+                        ${life.newHtml}
+                        ${speed.newHtml}
+                        ${atk1.newHtml}
+                        ${atk2.newHtml}
+                        ${hab.newHtml}
+                    </table>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="card-footer">
+                <div class="mutant-name">${name}</div>
+                <div class="mutant-sub"><b>${genes}</b> • ${type} • Ability: <b>${ability}</b></div>
+            </div>
+        </div>
+        `;
+
+        container.insertAdjacentHTML('beforeend', cardHtml);
+    }
+
+    filterCards();
+}
+
+// Filter cards with search input
+function filterCards() {
+    let q = document.getElementById('search').value.toLowerCase();
+    let cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        let text = card.getAttribute('data-search');
+        card.style.display = text.includes(q) ? 'flex' : 'none';
+    });
+}
+
+// Load data when DOM is ready
+document.addEventListener('DOMContentLoaded', loadMutants);
+</script>
+
+</body>
+</html>
